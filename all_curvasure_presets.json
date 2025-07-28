@@ -180,6 +180,12 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
+    "Sakakeeny-Van Hoesen": {
+      "params": {"Original Gouge (mm)": 32},
+      "points": {"tip_width": 15.4,"butt_width": 9.4,"intermediate": [[5, 14.57], [10, 13.44], [15, 12.4], [20, 11.47], [25, 10.54], [30, 9.61], [35, 8.99], [40, 8.79], [45, 8.79], [50, 9.1], [55,9.3]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
     "Schaul-Yoder": {
       "params": {"Original Gouge (mm)": 32},
       "points": {"tip_width": 15.70, "butt_width": 10, "intermediate": [[5, 14.85], [10, 13.96], [15, 13.07], [20, 12.21], [25, 11.32], [30, 10.43], [35, 9.65], [40, 9.24], [45, 9.24], [50, 9.44], [55, 9.78]]},
