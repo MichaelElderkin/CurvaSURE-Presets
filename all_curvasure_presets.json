@@ -1,7 +1,7 @@
 {
   "Defaults": {
     "Bassoon (Default)": {
-      "params": {"Original Gouge (mm)": 26},
+      "params": {"Total Cane Length (mm)": "120mm (Default)", "Gouge Diameter (mm)": "26mm (Default)"},
       "options": {
         "Total Cane Length (mm)": ["116mm", "118mm", "120mm (Default)", "122mm"],
         "Gouge Diameter (mm)": ["24mm", "25mm", "26mm (Default)", "27mm", "28mm", "32mm"]
