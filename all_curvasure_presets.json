@@ -1,30 +1,31 @@
 {
   "Defaults": {
     "Bassoon (Default)": {
-      "params": {"Total Cane Length (mm)": "120mm (Default)", "Gouge Diameter (mm)": "26mm (Default)"},
+      "params": {
+        "Total Cane Length (mm)": "120mm (Default)", 
+        "Gouge Diameter (mm)": "26mm (Default)"
+      },
       "options": {
         "Total Cane Length (mm)": ["116mm", "118mm", "120mm (Default)", "122mm"],
-        "Gouge Diameter (mm)": ["24mm", "25mm", "26mm (Default)", "27mm", "28mm", "32mm"]
+        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
     },
     "Baroque Bassoon (Default)": {
       "params": {
         "Total Cane Length (mm)": "140mm (Default)",
-        "Gouge Diameter (mm)": "26mm (Default)",
-        "Original Gouge (mm)": 26
+        "Gouge Diameter (mm)": "26mm (Default)"
       },
       "options": {
-        "Total Cane Length (mm)": ["140mm (Default)"],
-        "Gouge Diameter (mm)": ["25mm", "26mm (Default)", "27mm", "28mm", "30mm", "32mm"]
+        "Total Cane Length (mm)": ["126mm", "136mm", "140mm (Default)", "150mm"],
+        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
     },
     "Contrabassoon (Default)": {
       "params": {
         "Total Cane Length (mm)": "150mm (Default)",
-        "Gouge Diameter (mm)": "30mm (Default)",
-        "Original Gouge (mm)": 26
+        "Gouge Diameter (mm)": "30mm (Default)"
       },
       "options": {
         "Total Cane Length (mm)": ["142mm", "148mm", "150mm (Default)", "160mm"],
@@ -35,12 +36,11 @@
     "Contraforte (Default)": {
       "params": {
         "Total Cane Length (mm)": "180mm (Default)",
-        "Gouge Diameter (mm)": "30mm (Default)",
-        "Original Gouge (mm)": 26
+        "Gouge Diameter (mm)": "30mm (Default)"
       },
       "options": {
         "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm (Default)"],
-        "Gouge Diameter (mm)": ["29mm", "30mm (Default)", "32mm"]
+        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
       },
       "version": "1.0"
     }
