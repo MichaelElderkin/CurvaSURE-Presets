@@ -1,6 +1,6 @@
 {
   "Defaults": {
-    "Bassoon (Custom Template)": {
+    "Bassoon (Default)": {
       "params": {
         "Total Cane Length (mm)": "120mm (Default)", 
         "Gouge Diameter (mm)": "26mm (Default)"
@@ -11,7 +11,7 @@
       },
       "version": "1.0"
     },
-    "Baroque Bassoon (Custom Template)": {
+    "Baroque Bassoon (Default)": {
       "params": {
         "Total Cane Length (mm)": "140mm (Default)",
         "Gouge Diameter (mm)": "26mm (Default)"
@@ -22,7 +22,7 @@
       },
       "version": "1.0"
     },
-    "Contrabassoon (Custom Template)": {
+    "Contrabassoon (Default)": {
       "params": {
         "Total Cane Length (mm)": "150mm (Default)",
         "Gouge Diameter (mm)": "30mm (Default)"
@@ -33,7 +33,7 @@
       },
       "version": "1.0"
     },
-    "Contraforte (Custom Template)": {
+    "Contraforte (Default)": {
       "params": {
         "Total Cane Length (mm)": "180mm (Default)",
         "Gouge Diameter (mm)": "30mm (Default)"
