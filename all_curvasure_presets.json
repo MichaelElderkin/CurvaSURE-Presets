@@ -52,7 +52,7 @@
     },
     "category_options": {
       "Total Cane Length (mm)": ["116mm", "118mm", "120mm (Default)", "122mm"],
-      "Gouge Diameter (mm)": ["24mm", "25mm", "26mm (Default)", "27mm", "28mm", "32mm"]
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "1V": {
       "params": {"Original Gouge (mm)": 26},
@@ -193,8 +193,8 @@
       "Gouge Diameter (mm)": "26mm (Default)"
     },
     "category_options": {
-      "Total Cane Length (mm)": ["140mm (Default)"],
-      "Gouge Diameter (mm)": ["25mm", "26mm (Default)", "27mm", "28mm", "30mm", "32mm"]
+      "Total Cane Length (mm)": ["126mm", "136mm", "140mm (Default)", "150mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Rieger B1": {
       "params": {"Original Gouge (mm)": 32},
@@ -273,7 +273,7 @@
     },
     "category_options": {
       "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm (Default)"],
-      "Gouge Diameter (mm)": ["29mm", "30mm (Default)", "32mm"]
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
     },
     "Rieger C2": {
       "params": {"Original Gouge (mm)": 32},
