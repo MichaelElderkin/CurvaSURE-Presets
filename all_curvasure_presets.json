@@ -61,8 +61,8 @@
       "version": "1.0"
     },
     "Herzberg": {
-      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
-      "points": {"tip_width": 14.80, "butt_width": 10.2, "intermediate": [[30, 9.5], [43.9, 8.50]]},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "points": {"tip_width": 15, "butt_width": 10.4, "intermediate": [[5, 14.33], [10, 13.21], [15, 12.11], [20, 11.25], [25, 10.39], [30, 9.76], [35, 9.13], [40, 8.71], [45, 8.71], [50, 8.92], [55, 9.55]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
