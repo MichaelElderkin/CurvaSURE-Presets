@@ -206,7 +206,7 @@
     },
     "category_options": {
       "Total Cane Length (mm)": ["126mm", "136mm", "140mm (Default)", "150mm"],
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Rieger B1": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
@@ -227,7 +227,7 @@
     },
     "category_options": {
       "Total Cane Length (mm)": ["142mm", "148mm", "150mm (Default)", "160mm"],
-      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
     },
     "Fast": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
