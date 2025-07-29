@@ -78,12 +78,6 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
-    "Morelli": {
-      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
-      "points": {"tip_width": 14.1, "butt_width": 10.2, "intermediate": [[30, 9.4], [36.8, 9.1]]},
-      "options": {"Curve Mode": "straight"},
-      "version": "1.0"
-    },
     "Rieger 1": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 14.46, "butt_width": 9.83, "intermediate": [[5, 13.71], [10, 12.35], [15, 11.24], [20, 10.17], [25, 9.26], [30, 8.69], [35, 8.69], [40, 8.83], [45, 8.98], [50, 9.26], [55, 9.55]]},
