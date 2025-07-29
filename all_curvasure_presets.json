@@ -54,62 +54,20 @@
       "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
       "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
-    "1V": {
-      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
-      "points": {"tip_width": 14.5, "butt_width": 9.2, "intermediate": [[30, 9.3], [42, 8.7]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
-    "Chiarugi 1": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 15, "butt_width": 10.2, "intermediate": [[30, 8.8]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
-    "Chiarugi 2": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 15.4, "butt_width": 10.6, "intermediate": [[30, 9.3]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
-    "Chiarugi 3": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 15.9, "butt_width": 10.7, "intermediate": [[30, 9.5]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
-    "Chiarugi K": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 15.4, "butt_width": 9.6, "intermediate": [[30, 9.1]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
     "Christlieb": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 14.30, "butt_width": 9.8, "intermediate": [[5, 14.10], [10, 13.70], [15, 12.89], [20, 11.89], [25, 10.76], [30, 9.69], [35, 9.43], [40, 9.36], [45, 9.54], [50, 9.67], [55, 9.67]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
-    "FB1": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 15, "butt_width": 9.6, "intermediate": [[30, 9.5], [41, 9]]},
-      "options": {"Curve Mode": "straight"},
-      "version": "1.0"
-    },
-    "FB2": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 14.4, "butt_width": 9.4, "intermediate": [[30, 9.2], [41.7, 8.5]]},
-      "options": {"Curve Mode": "straight"},
-      "version": "1.0"
-    },
     "Herzberg": {
-      "params": {"Original Gouge (mm)": 26},
+      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
       "points": {"tip_width": 14.80, "butt_width": 10.2, "intermediate": [[30, 9.5], [43.9, 8.50]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Knochenhauer": {
-      "params": {"Original Gouge (mm)": 25},
+      "params": {"Original Gouge (mm)": 25, "Gouge Diameter (mm)": "25mm"},
       "points": {"tip_width": 15.2, "butt_width": 9.4, "intermediate": [[5, 13.8], [10, 12.4], [15, 11.4], [20, 10.4], [25, 9.4], [30, 8.8], [35, 8.4], [40, 8.2], [45, 8.2], [50, 8.6], [55, 9]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
@@ -120,80 +78,56 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
-    "KW": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 14.7, "butt_width": 9.6, "intermediate": [[30, 9.7], [43.9, 9]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
-    "Maxym": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 14.9, "butt_width": 10.1, "intermediate": [[30, 9.5], [39, 9]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
     "Morelli": {
-      "params": {"Original Gouge (mm)": 26},
+      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
       "points": {"tip_width": 14.1, "butt_width": 10.2, "intermediate": [[30, 9.4], [36.8, 9.1]]},
       "options": {"Curve Mode": "straight"},
       "version": "1.0"
     },
-    "Petersen": {
-      "params": {"Original Gouge (mm)": 25},
-      "points": {"tip_width": 14.8, "butt_width": 9.5, "intermediate": [[30, 8.9], [32.2, 8.6]]},
-      "options": {"Curve Mode": "straight"},
-      "version": "1.0"
-    },
-    "Popov": {
-      "params": {"Original Gouge (mm)": 26},
-      "points": {"tip_width": 15.2, "butt_width": 9, "intermediate": [[30, 9.4], [40, 8.6]]},
-      "options": {"Curve Mode": "straight"},
-      "version": "1.0"
-    },
     "Rieger 1": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 14.46, "butt_width": 9.83, "intermediate": [[5, 13.71], [10, 12.35], [15, 11.24], [20, 10.17], [25, 9.26], [30, 8.69], [35, 8.69], [40, 8.83], [45, 8.98], [50, 9.26], [55, 9.55]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Rieger 1a": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 14.90, "butt_width": 10.09, "intermediate": [[5, 14.57], [10, 13.38], [15, 12.14], [20, 11.10], [25, 10.14], [30, 9.49], [35, 9.12], [40, 9.05], [45, 9.20], [50, 9.42], [55, 9.70]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Rieger 2": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 15.34, "butt_width": 10.03, "intermediate": [[5, 14.69], [10, 13.45], [15, 12.20], [20, 11.08], [25, 10.19], [30, 9.46], [35, 9.13], [40, 9.13], [45, 9.21], [50, 9.37], [55, 9.70]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Rieger 3": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 15.78, "butt_width": 9.95, "intermediate": [[5, 15.11], [10, 13.81], [15, 12.49], [20, 11.29], [25, 10.21], [30, 9.48], [35, 9.19], [40, 9.19], [45, 9.41], [50, 9.48], [55, 9.63]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Rieger 13": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 14.99, "butt_width": 9.34, "intermediate": [[5, 14.20], [10, 13.20], [15, 12.22], [20, 11.24], [25, 10.38], [30, 9.55], [35, 9.14], [40, 8.70], [45, 8.70], [50, 8.80], [55, 9.02]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Sakakeeny-Van Hoesen": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 15.4,"butt_width": 9.4,"intermediate": [[5, 14.57], [10, 13.44], [15, 12.4], [20, 11.47], [25, 10.54], [30, 9.61], [35, 8.99], [40, 8.79], [45, 8.79], [50, 9.1], [55,9.3]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Schaul-Yoder": {
-      "params": {"Original Gouge (mm)": 32},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 15.70, "butt_width": 10, "intermediate": [[5, 14.85], [10, 13.96], [15, 13.07], [20, 12.21], [25, 11.32], [30, 10.43], [35, 9.65], [40, 9.24], [45, 9.24], [50, 9.44], [55, 9.78]]},
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     },
     "Thunemann": {
-      "params": {"Original Gouge (mm)": 26},
+      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
       "points": {"tip_width": 15.2, "butt_width": 9.2, "intermediate": [[30, 9.4], [33.5, 9]]},
       "options": {"Curve Mode": "straight"},
       "version": "1.0"
