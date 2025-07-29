@@ -2,57 +2,57 @@
   "Defaults": {
     "Bassoon (Default)": {
       "params": {
-        "Total Cane Length (mm)": "120mm (Default)", 
-        "Gouge Diameter (mm)": "26mm (Default)"
+        "Total Cane Length (mm)": "120mm", 
+        "Gouge Diameter (mm)": "26mm"
       },
       "options": {
-        "Total Cane Length (mm)": ["116mm", "118mm", "120mm (Default)", "122mm"],
-        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
+        "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
+        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
     },
     "Baroque Bassoon (Default)": {
       "params": {
-        "Total Cane Length (mm)": "140mm (Default)",
-        "Gouge Diameter (mm)": "26mm (Default)"
+        "Total Cane Length (mm)": "140mm",
+        "Gouge Diameter (mm)": "26mm"
       },
       "options": {
-        "Total Cane Length (mm)": ["126mm", "136mm", "140mm (Default)", "150mm"],
-        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
+        "Total Cane Length (mm)": ["126mm", "136mm", "140mm", "150mm"],
+        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
     },
     "Contrabassoon (Default)": {
       "params": {
-        "Total Cane Length (mm)": "150mm (Default)",
-        "Gouge Diameter (mm)": "30mm (Default)"
+        "Total Cane Length (mm)": "150mm",
+        "Gouge Diameter (mm)": "30mm"
       },
       "options": {
-        "Total Cane Length (mm)": ["142mm", "148mm", "150mm (Default)", "160mm"],
-        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
+        "Total Cane Length (mm)": ["142mm", "148mm", "150mm", "160mm"],
+        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
     },
     "Contraforte (Default)": {
       "params": {
-        "Total Cane Length (mm)": "180mm (Default)",
-        "Gouge Diameter (mm)": "30mm (Default)"
+        "Total Cane Length (mm)": "180mm",
+        "Gouge Diameter (mm)": "30mm"
       },
       "options": {
-        "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm (Default)"],
-        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
+        "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
+        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
     }
   },
   "Bassoon": {
     "category_defaults": {
-      "Total Cane Length (mm)": "120mm (Default)",
-      "Gouge Diameter (mm)": "26mm (Default)"
+      "Total Cane Length (mm)": "120mm",
+      "Gouge Diameter (mm)": "26mm"
     },
     "category_options": {
-      "Total Cane Length (mm)": ["116mm", "118mm", "120mm (Default)", "122mm"],
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "1V": {
       "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
@@ -201,12 +201,12 @@
   },
   "Baroque Bassoon": {
     "category_defaults": {
-      "Total Cane Length (mm)": "140mm (Default)",
-      "Gouge Diameter (mm)": "26mm (Default)"
+      "Total Cane Length (mm)": "140mm",
+      "Gouge Diameter (mm)": "26mm"
     },
     "category_options": {
-      "Total Cane Length (mm)": ["126mm", "136mm", "140mm (Default)", "150mm"],
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm (Default)", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Total Cane Length (mm)": ["126mm", "136mm", "140mm", "150mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Rieger B1": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
@@ -223,11 +223,11 @@
   },
   "Contrabassoon": {
     "category_defaults": {
-      "Total Cane Length (mm)": "150mm (Default)"
+      "Total Cane Length (mm)": "150mm"
     },
     "category_options": {
-      "Total Cane Length (mm)": ["142mm", "148mm", "150mm (Default)", "160mm"],
-      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
+      "Total Cane Length (mm)": ["142mm", "148mm", "150mm", "160mm"],
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Fast": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
@@ -274,11 +274,11 @@
   },
   "Contraforte": {
     "category_defaults": {
-      "Total Cane Length (mm)": "180mm (Default)"
+      "Total Cane Length (mm)": "180mm"
     },
     "category_options": {
-      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm (Default)"],
-      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm (Default)", "32mm"]
+      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Rieger C2": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
