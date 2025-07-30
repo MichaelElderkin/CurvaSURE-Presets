@@ -121,9 +121,9 @@
       "version": "1.0"
     },
     "Thunemann": {
-      "params": {"Original Gouge (mm)": 26, "Gouge Diameter (mm)": "26mm"},
-      "points": {"tip_width": 15.2, "butt_width": 9.2, "intermediate": [[30, 9.4], [33.5, 9]]},
-      "options": {"Curve Mode": "straight"},
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "points": {"tip_width": 14.99, "butt_width": 9.73, "intermediate": [[5, 14.50], [10, 13.41], [15, 12.29], [20, 11.37], [25, 10.24], [30, 9.73], [35, 9.45], [40, 9.69], [45, 9.89], [50, 9.98], [55, 9.89]]},
+      "options": {"Curve Mode": "curve"},
       "version": "1.0"
     }
   },
