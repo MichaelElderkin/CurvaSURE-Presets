@@ -246,5 +246,20 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.0"
     }
-  }
+  },
+  "Subcontrabassoon": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "180mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Richard Bobo": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "points": {"tip_width": 27.81, "butt_width": 13.63, "intermediate": [[17.91, 21.26], [26.35, 18.12], [31.23, 16.3], [36.114, 14.89], [40.62, 13.84], [45.1, 13.05], [48.89, 12.67], [53.63, 12.47], [65.01, 12.52], [73.88, 12.81], [82.93, 13.23]]},
+      "options": {"Curve Mode": "straight"},
+      "version": "1.0"
+    }
+  } 
 }
