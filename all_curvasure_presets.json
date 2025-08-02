@@ -43,17 +43,6 @@
         "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
       },
       "version": "1.0"
-    },
-    "Heckelphone (Default)": {
-      "params": {
-        "Total Cane Length (mm)": "120mm", 
-        "Gouge Diameter (mm)": "26mm"
-      },
-      "options": {
-        "Total Cane Length (mm)": ["106mm", "116mm", "118mm", "120mm", "122mm"],
-        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
-      },
-      "version": "1.0"
     }
   },
   "Bassoon": {
