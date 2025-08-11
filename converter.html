@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaper Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* Mimic Tkinter default font */
+            background-color: #f0f0f0; /* Lighter background like Tkinter ttk default */
+            color: #333333; /* Darker text for better contrast */
+            padding: 10px; /* Reduced padding for a more compact feel */
+        }
+        .container {
+            max-width: 500px; /* Further reduced max-width */
+            margin: 1.5rem auto; /* Slightly reduced margin */
+            padding: 1.5rem;
+            background-color: #fcfcfc; /* Lighter background for the container */
+            border-radius: 8px; /* Slightly smaller border-radius */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+            border: 1px solid #d9d9d9; /* Lighter border */
+        }
+        h1 {
+            font-size: 1.75rem; /* Slightly smaller h1 */
+            color: #222222;
+            margin-bottom: 0.5rem; /* Reduced margin */
+        }
+        p {
+            font-size: 0.85rem; /* Slightly smaller body text */
+            color: #555555;
+            margin-bottom: 0.25rem; /* Further reduced margin for general paragraphs */
+        }
+        .header-row {
+            padding: 0.5rem 0; /* Reduced padding */
+            border-bottom: 1px solid #cccccc; /* Lighter border */
+            margin-bottom: 0.5rem; /* Reduced margin for header row */
+        }
+        .header-row div {
+            font-weight: 600;
+            color: #444444;
+            font-size: 0.85rem; /* Smaller header font */
+        }
+
+        /* Input field styling to mimic ttk.Entry */
+        input[type="number"] {
+            padding: 0.4rem 0.6rem; /* Smaller padding for inputs */
+            border: 1px solid #cccccc; /* Lighter border */
+            border-radius: 4px; /* Smaller border-radius */
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #ffffff; /* White background for editable fields */
+            color: #333333;
+            font-size: 0.9rem; /* Consistent font size */
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            -webkit-appearance: none; /* Remove default iOS button styling */
+            -moz-appearance: textfield; /* Firefox specific */
+        }
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #0078d7; /* Blue focus border like Tkinter */
+            box-shadow: 0 0 0 1px #0078d7; /* Thin focus shadow */
+        }
+
+        /* Styles for specific input states (mimicking ttk styles) */
+        .calculated-field {
+            background-color: #e0f2f7 !important; /* Light blue */
+            color: #0c4a6e;
+            font-weight: 600;
+        }
+        .linked-gouge-field {
+            background-color: #e6e6e6 !important; /* Light gray for readonly linked fields */
+            cursor: not-allowed;
+            color: #666666;
+            font-weight: 500;
+        }
+        .readonly-field {
+             background-color: #f0f0f0 !important; /* Lighter gray for general readonly */
+             color: #666666;
+             cursor: default;
+        }
+        .error-message {
+            color: #cc0000; /* Darker red for error messages */
+            font-size: 0.7rem; /* Smaller error text */
+            text-align: center;
+            margin-top: 0.1rem;
+            height: 0.8rem; /* Reduced height */
+        }
+
+        /* Buttons (simplified for Tkinter-like look) */
+        .btn {
+            padding: 0.5rem 1rem; /* Smaller button padding */
+            border-radius: 4px; /* Smaller border-radius */
+            font-weight: 500; /* Regular font weight */
+            cursor: pointer;
+            transition: background-color 0.15s ease-in-out, transform 0.05s ease-in-out;
+            box-shadow: none; /* No shadow by default */
+            border: 1px solid; /* Add border for flat look */
+            font-size: 0.85rem; /* Smaller button font */
+        }
+        .btn:active {
+            transform: translateY(1px); /* Slight press effect */
+        }
+
+        .btn-primary {
+            background-color: #0078d7; /* Tkinter blue */
+            color: #ffffff;
+            border-color: #0078d7;
+        }
+        .btn-primary:hover {
+            background-color: #005a9e;
+            border-color: #005a9e;
+        }
+
+        .btn-secondary {
+            background-color: #e0e0e0; /* Light gray */
+            color: #333333;
+            border-color: #cccccc;
+        }
+        .btn-secondary:hover {
+            background-color: #d0d0d0;
+            border-color: #bbbbbb;
+        }
+
+        .btn-tertiary {
+            background-color: #4CAF50; /* Green for Add */
+            color: #ffffff;
+            border-color: #4CAF50;
+        }
+        .btn-tertiary:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+
+        /* Average Gouge Section */
+        #averageGougeContainer {
+            background-color: #f0f0f0; /* Matches body background for subtlety */
+            border-top: 1px solid #cccccc; /* Lighter border */
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+        #averageGougeResult {
+            background-color: #e6f2fa; /* Lighter blue for results */
+            color: #005a9e;
+            font-size: 1rem; /* Slightly smaller font */
+            font-weight: 600;
+            padding: 0.75rem; /* Reduced padding */
+            border-radius: 6px; /* Smaller border-radius */
+            text-align: center;
+            border: 1px solid #cceeff;
+        }
+        #averageGougeWarning {
+            color: #666666; /* Grayer warning text */
+            font-size: 0.75rem; /* Smaller warning font */
+            text-align: center;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container">
+        <h1 class="text-3xl font-bold text-center mb-2">CurvaSURE Shaper Converter</h1>
+        <p class="text-center text-sm mb-4">Use this tool to convert fold-over shaper values to straight shaper values, vice versa, or determine the gouge of your cane.</p>
+        <p class="text-center text-sm mb-4">Enter any two values per row to get the third value. Entering a gouge in the first row locks it for all rows.</p>
+		<p class="text-center text-xs mb-4" style="border: 1px solid black; padding: 6px; display: inline-block;">
+		  <b>To get values to plug into CurvaSURE</b>
+		  <span class="font-normal"> = Fold-over Shaper or Flattened Reed + Gouge Diameter (desired for the shaper)</span><br>
+		
+		  <b>To get flattened reed values of a Straight Shaper</b>
+		  <span class="font-normal"> = Straight Shaper + Gouge Diameter of Shaper</span><br>
+		
+		  <b>To get gouge of cane</b>
+		  <span class="font-normal"> = Straight Shaper Measurement + Flattened Measurement</span>
+		</p>
+
+
+
+
+        <div class="mt-5 flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
+            <button id="addRowBtn" class="btn btn-tertiary w-full sm:w-auto">Add Measurement Point</button>
+            <div class="flex space-x-3">
+                <button id="calculateBtn" class="btn btn-primary">Calculate</button>
+                <button id="clearBtn" class="btn btn-secondary">Clear All</button>
+            </div>
+        </div>
+        
+        <div id="averageGougeContainer" class="hidden">
+            <h3 class="text-base font-semibold text-center mb-3">Average Gouge Diameter</h3>
+            <div id="averageGougeResult"></div>
+            <p id="averageGougeWarning" class="hidden"></p>
+        </div>
+
+		<div class="grid grid-cols-3 gap-3 px-2 pb-1 header-row text-center items-end">
+		  <div class="self-end">Straight Shaper (mm)</div>
+		  <div class="self-end">Fold-over Shaper or <br>Flattened Reed (mm)</div>
+		  <div class="self-end">Gouge Diameter (mm)</div>
+		</div>
+
+        <div id="fieldsContainer" class="space-y-2 mt-2"> </div>
+
+    </div>
+
+    <script>
+        const fieldsContainer = document.getElementById('fieldsContainer');
+        const addRowBtn = document.getElementById('addRowBtn');
+        const calculateBtn = document.getElementById('calculateBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const averageGougeContainer = document.getElementById('averageGougeContainer');
+        const averageGougeResult = document.getElementById('averageGougeResult');
+        const averageGougeWarning = document.getElementById('averageGougeWarning');
+
+        function addRow() {
+            const row = document.createElement('div');
+            row.className = 'data-row';
+            row.innerHTML = `
+                <div class="grid grid-cols-3 gap-3 items-center">
+                    <div><input type="number" class="straight-shaper-input w-full" placeholder="e.g., 15.5" step="0.01"></div>
+                    <div><input type="number" class="fold-over-shaper-input w-full" placeholder="e.g., 16.75" step="0.01"></div>
+                    <div><input type="number" class="gouge-diameter-input w-full" placeholder="e.g., 25.0" step="0.01"></div>
+                </div>
+                <div class="error-message text-center col-span-3"></div>
+            `;
+            fieldsContainer.appendChild(row);
+            updateGougeLockState();
+        }
+
+        function solveThetaRadians(ratio) {
+            if (ratio < 1) return NaN;
+            let low = 0.001, high = Math.PI / 2;
+            const tolerance = 1e-7, maxIterations = 100;
+            for (let i = 0; i < maxIterations; i++) {
+                const mid = (low + high) / 2;
+                if (mid === 0) return mid;
+                const f_mid = mid / Math.sin(mid) - ratio;
+                if (Math.abs(f_mid) < tolerance) return mid;
+                if (f_mid < 0) low = mid; else high = mid;
+            }
+            return (low + high) / 2;
+        }
+        
+        function getMasterGougeValue() {
+            const firstRow = fieldsContainer.querySelector('.data-row');
+            if (!firstRow) return null;
+            const masterGougeInput = firstRow.querySelector('.gouge-diameter-input');
+            const value = parseFloat(masterGougeInput.value);
+            return isNaN(value) ? null : value;
+        }
+
+        function calculateAllRows() {
+            const rows = document.querySelectorAll('.data-row');
+            const calculatedGouges = [];
+            const masterGouge = getMasterGougeValue();
+
+            rows.forEach(row => {
+                const straightInput = row.querySelector('.straight-shaper-input');
+                const foldOverInput = row.querySelector('.fold-over-shaper-input');
+                const gougeInput = row.querySelector('.gouge-diameter-input');
+                const errorDiv = row.querySelector('.error-message');
+
+                [straightInput, foldOverInput, gougeInput].forEach(input => {
+                    input.classList.remove('calculated-field');
+                    input.classList.remove('readonly-field'); // Ensure this is removed for potential calculations
+                    if (input.readOnly && !input.classList.contains('linked-gouge-field')) {
+                        input.classList.add('readonly-field');
+                    }
+                });
+                errorDiv.textContent = '';
+
+                let L_projected = parseFloat(straightInput.value);
+                let L_flat = parseFloat(foldOverInput.value);
+                let gougeDiameter = parseFloat(gougeInput.value);
+                
+                // If master gouge is set, use it for calculations
+                if(masterGouge !== null && gougeInput !== document.querySelector('.data-row:first-child .gouge-diameter-input')) {
+                    gougeDiameter = masterGouge;
+                    // Ensure the linked gouge field visually reflects the master value
+                    if (!isNaN(masterGouge)) {
+                        gougeInput.value = masterGouge.toFixed(2);
+                    }
+                }
+
+                const providedCount = [L_projected, L_flat, gougeDiameter].filter(v => !isNaN(v)).length;
+
+                if (providedCount !== 2) {
+                    if (providedCount !== 0 && providedCount !== 3) errorDiv.textContent = 'Please provide exactly two values.';
+                    return;
+                }
+
+                try {
+                    let calculatedValue;
+                    // Case 1: Calculate Gouge Diameter
+                    if (isNaN(gougeDiameter)) {
+                        if (masterGouge !== null) throw new Error("Gouge is locked by the first row.");
+                        if (L_projected >= L_flat) throw new Error('Fold-over width must be > Straight width.');
+                        if (L_projected <= 0 || L_flat <= 0) throw new Error('Widths must be positive.');
+                        const ratio = L_flat / L_projected;
+                        const theta_radians = solveThetaRadians(ratio);
+                        if (isNaN(theta_radians) || theta_radians <= 0) throw new Error('Calculation error.');
+                        const R = L_flat / (2 * theta_radians);
+                        calculatedValue = R * 2;
+                        gougeInput.value = calculatedValue.toFixed(2);
+                        gougeInput.classList.add('calculated-field');
+                        calculatedGouges.push(calculatedValue);
+                    }
+                    // Case 2: Calculate Fold-over (Flattened) Width
+                    else if (isNaN(L_flat)) {
+                         if (L_projected >= gougeDiameter) throw new Error('Straight width must be < Gouge Diameter.');
+                         if (L_projected <= 0 || gougeDiameter <= 0) throw new Error('Straight width and Gouge must be positive.');
+                         const R = gougeDiameter / 2;
+                         const sin_theta = L_projected / (2 * R);
+                         if (sin_theta > 1 || sin_theta < -1) throw new Error('Invalid inputs: impossible angle.');
+                         const theta_radians = Math.asin(sin_theta);
+                         calculatedValue = R * (2 * theta_radians);
+                         foldOverInput.value = calculatedValue.toFixed(2);
+                         foldOverInput.classList.add('calculated-field');
+                    }
+                    // Case 3: Calculate Straight (Projected) Width
+                    else if (isNaN(L_projected)) {
+                        if (L_flat <= 0 || gougeDiameter <= 0) throw new Error('Fold-over width and Gouge must be positive.');
+                        const R = gougeDiameter / 2;
+                        if (L_flat / R > Math.PI) throw new Error('Fold-over width is too large for this gouge.');
+                        const two_theta_radians = L_flat / R;
+                        const theta_radians = two_theta_radians / 2;
+                        calculatedValue = 2 * R * Math.sin(theta_radians);
+                        straightInput.value = calculatedValue.toFixed(2);
+                        straightInput.classList.add('calculated-field');
+                    }
+                } catch (e) {
+                    errorDiv.textContent = e.message;
+                }
+            });
+
+            // Update the average gouge display only if master gouge is NOT set
+            if (masterGouge === null && calculatedGouges.length > 0) {
+                const sum = calculatedGouges.reduce((acc, val) => acc + val, 0);
+                const average = sum / calculatedGouges.length;
+                averageGougeResult.textContent = `${average.toFixed(2)} mm`;
+                averageGougeContainer.classList.remove('hidden');
+
+                if (calculatedGouges.length > 1) {
+                    averageGougeWarning.textContent = "Average gouge calculated to offset measurement inaccuracy.";
+                    averageGougeWarning.classList.remove('hidden');
+                } else {
+                    averageGougeWarning.classList.add('hidden');
+                }
+            } else {
+                averageGougeContainer.classList.add('hidden');
+            }
+        }
+
+        function clearAll() {
+            fieldsContainer.innerHTML = '';
+            averageGougeContainer.classList.add('hidden');
+            addRow();
+        }
+        
+        function updateGougeLockState() {
+            const masterGougeValue = getMasterGougeValue();
+            const rows = document.querySelectorAll('.data-row');
+
+            rows.forEach((row, index) => {
+                const gougeInput = row.querySelector('.gouge-diameter-input');
+                if (index > 0) { // Not the first row
+                    if (masterGougeValue !== null) {
+                        gougeInput.value = masterGougeValue.toFixed(2);
+                        gougeInput.readOnly = true;
+                        gougeInput.classList.add('linked-gouge-field');
+                        gougeInput.classList.remove('calculated-field'); // Ensure no lingering calculated style
+                    } else {
+                        gougeInput.readOnly = false;
+                        gougeInput.classList.remove('linked-gouge-field');
+                        gougeInput.classList.remove('calculated-field');
+                        if (gougeInput.value === masterGougeValue.toFixed(2)) gougeInput.value = ''; // Clear if it was set by lock
+                    }
+                } else { // First row
+                    gougeInput.readOnly = false; // Always editable
+                    gougeInput.classList.remove('linked-gouge-field');
+                }
+            });
+            // Hide average section if master gouge is set
+            if (masterGougeValue !== null) {
+                averageGougeContainer.classList.add('hidden');
+            }
+        }
+
+        addRowBtn.addEventListener('click', addRow);
+        calculateBtn.addEventListener('click', calculateAllRows);
+        clearBtn.addEventListener('click', clearAll);
+
+        fieldsContainer.addEventListener('input', (event) => {
+            const target = event.target;
+            const parentRow = target.closest('.data-row');
+            if (!parentRow) return;
+
+            parentRow.querySelectorAll('input').forEach(input => input.classList.remove('calculated-field'));
+            parentRow.querySelector('.error-message').textContent = '';
+
+            // Check if the master gouge (first row) was the one edited
+            const firstRow = document.querySelector('.data-row:first-child');
+            if (parentRow === firstRow && target.classList.contains('gouge-diameter-input')) {
+                updateGougeLockState();
+            }
+        });
+
+        // --- Initial State ---
+        addRow();
+    </script>
+</body>
+</html>
