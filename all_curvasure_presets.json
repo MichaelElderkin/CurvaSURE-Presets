@@ -17,10 +17,10 @@
         "Gouge Diameter (mm)": "26mm"
       },
       "options": {
-        "Total Cane Length (mm)": ["126mm", "136mm", "140mm", "150mm"],
+        "Total Cane Length (mm)": ["120mm","122mm","124mm", "126mm", "128mm", "130mm", "132mm", "134mm", "136mm", "138mm", "140mm", "142mm", "150mm"],
         "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
       },
-      "version": "1.0"
+      "version": "1.1"
     },
     "Contrabassoon (Default)": {
       "params": {
@@ -175,7 +175,7 @@
       "Gouge Diameter (mm)": "26mm"
     },
     "category_options": {
-      "Total Cane Length (mm)": ["126mm", "136mm", "140mm", "150mm"],
+      "Total Cane Length (mm)": ["120mm","122mm","124mm", "126mm", "128mm", "130mm", "132mm", "134mm", "136mm", "138mm", "140mm", "142mm", "150mm"],
       "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Rieger B1": {
