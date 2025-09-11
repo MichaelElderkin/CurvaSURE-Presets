@@ -98,9 +98,9 @@
     },
     "Millard": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
-      "points": {"tip_width": 16.25, "butt_width": 9.6, "intermediate": [[5.0, 15.25], [10.0, 14.2], [15.0, 13.1], [20.0, 12.0], [25.0, 10.97], [30.0, 10.04], [35.0, 9.63], [40.0, 9.6], [45.0, 9.6], [50.0, 9.6], [55.0, 9.6]]},
+      "points": {"tip_width": 16.25, "butt_width": 9.6, "intermediate": [[5.0, 15.22], [10.0, 14.17], [15.0, 13.1], [20.0, 12.03], [25.0, 10.97], [30.0, 10.04], [35.0, 9.64], [40.0, 9.6], [45.0, 9.6], [50.0, 9.6], [55.0, 9.6]]},
       "options": {"Curve Mode": "curve"},
-      "version": "1.0"
+      "version": "1.1"
     },
     "Rieger 1": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
