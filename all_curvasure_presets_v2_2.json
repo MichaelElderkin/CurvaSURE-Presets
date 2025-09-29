@@ -1,58 +1,49 @@
 {
   "Defaults": {
-    "Bassoon (Default)": {
+    "category_defaults": {
+      "Gouge Diameter (mm)": "32mm",
+      "Bolt Hole Diameter (mm)": "M5 Hex [5mm]"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm", "124mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Blank Template (Default)": {
+      "version": "1.0"
+    },
+    "Bassoon - Template (Default)": {
       "params": {
         "Total Cane Length (mm)": "120mm", 
         "Gouge Diameter (mm)": "26mm"
       },
-      "options": {
-        "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
-        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
-      },
       "version": "1.0"
     },
-    "Historical Bassoon (Default)": {
+    "Historical Bassoon - Template (Default)": {
       "params": {
         "Total Cane Length (mm)": "140mm",
         "Gouge Diameter (mm)": "26mm"
       },
-      "options": {
-        "Total Cane Length (mm)": ["120mm","122mm","124mm", "126mm", "128mm", "130mm", "132mm", "134mm", "136mm", "138mm", "140mm", "142mm", "150mm"],
-        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
-      },
       "version": "1.1"
     },
-    "Contrabassoon (Default)": {
+    "Contrabassoon - Template (Default)": {
       "params": {
         "Total Cane Length (mm)": "150mm",
         "Gouge Diameter (mm)": "30mm"
       },
-      "options": {
-        "Total Cane Length (mm)": ["142mm", "148mm", "150mm", "160mm"],
-        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
-      },
       "version": "1.0"
     },
-    "Contraforte (Default)": {
+    "Contraforte - Template (Default)": {
       "params": {
         "Total Cane Length (mm)": "180mm",
         "Gouge Diameter (mm)": "30mm"
       },
-      "options": {
-        "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
-        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
-      },
       "version": "1.0"
     }
   },
+  
   "Bassoon": {
     "category_defaults": {
-      "Total Cane Length (mm)": "120mm",
-      "Gouge Diameter (mm)": "26mm"
-    },
-    "category_options": {
-      "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Total Cane Length (mm)": "120mm"
     },
     "Christlieb": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
@@ -333,12 +324,7 @@
   },
   "Historical Bassoon": {
     "category_defaults": {
-      "Total Cane Length (mm)": "140mm",
-      "Gouge Diameter (mm)": "26mm"
-    },
-    "category_options": {
-      "Total Cane Length (mm)": ["120mm","122mm","124mm", "126mm", "128mm", "130mm", "132mm", "134mm", "136mm", "138mm", "140mm", "142mm", "150mm"],
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Total Cane Length (mm)": "140mm"
     },
     "Rieger AA": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
@@ -423,10 +409,6 @@
     "category_defaults": {
       "Total Cane Length (mm)": "150mm"
     },
-    "category_options": {
-      "Total Cane Length (mm)": ["142mm", "148mm", "150mm", "160mm"],
-      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
-    },
     "David Lock": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 20.3, "butt_width": 11.5, "intermediate": [[5.0, 19.45], [10.0, 18.4], [15.0, 17.38], [20.0, 16.17], [25.0, 15.15], [30.0, 14.32], [35.0, 13.49], [40.0, 12.88], [45.0, 12.0], [50.0, 11.45], [55.0, 11.23], [60.0, 11.14], [65.0, 10.98], [70.0, 11.3]]},
@@ -486,10 +468,6 @@
     "category_defaults": {
       "Total Cane Length (mm)": "180mm"
     },
-    "category_options": {
-      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
-      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
-    },
     "Rieger C2": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "points": {"tip_width": 21.15, "butt_width": 12.7, "intermediate": [[2.5, 20.81], [5.0, 20.44], [7.5, 20.03], [10.0, 19.58], [12.5, 19.1], [15.0, 18.6], [17.5, 18.09], [20.0, 17.56], [22.5, 17.03], [25.0, 16.49], [27.5, 15.95], [30.0, 15.39], [32.5, 14.84], [35.0, 14.28], [37.5, 13.71], [40.0, 13.14], [42.5, 12.77], [45.0, 12.52], [47.5, 12.26], [50.0, 11.99], [52.5, 11.8], [55.0, 11.84], [57.5, 11.92], [60.0, 11.99], [62.5, 12.05], [65.0, 12.11], [67.5, 12.17], [70.0, 12.23], [72.5, 12.28], [75.0, 12.33], [77.5, 12.38], [80.0, 12.43], [82.5, 12.49], [85.0, 12.56], [87.5, 12.63]]},
@@ -500,10 +478,6 @@
   "Heckelphone": {
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
-    },
-    "category_options": {
-      "Total Cane Length (mm)": ["106mm", "116mm", "118mm", "120mm", "122mm"],
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Adrian Rowlands": {
       "params": {"Total Cane Length (mm)": "106mm", "Original Gouge (mm)": 28, "Gouge Diameter (mm)": "28mm"},
@@ -521,10 +495,6 @@
   "Subcontrabassoon": {
     "category_defaults": {
       "Total Cane Length (mm)": "180mm"
-    },
-    "category_options": {
-      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
-      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Richard Bobo": {
       "params": {"Original Gouge (mm)": 35, "Gouge Diameter (mm)": "32mm"},
