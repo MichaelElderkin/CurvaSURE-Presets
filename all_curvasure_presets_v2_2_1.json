@@ -487,7 +487,6 @@
     }
   }, 
   "Heckelphone": {
-    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
     },
