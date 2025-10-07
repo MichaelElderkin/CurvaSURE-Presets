@@ -42,6 +42,7 @@
   },
   
   "Bassoon": {
+    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
     },
@@ -323,6 +324,7 @@
     }
   },
   "Historical Bassoon": {
+    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "140mm"
     },
@@ -406,6 +408,7 @@
     }
   },
   "Contrabassoon": {
+    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "150mm"
     },
@@ -477,6 +480,7 @@
     }
   },
   "Contraforte": {
+    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "180mm"
     },
@@ -488,6 +492,7 @@
     }
   }, 
   "Heckelphone": {
+    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
     },
@@ -505,6 +510,7 @@
     }
   },
   "Subcontrabassoon": {
+    "category_version": "1.0",
     "category_defaults": {
       "Total Cane Length (mm)": "180mm"
     },
