@@ -5,7 +5,7 @@
       "Bolt Hole Diameter (mm)": "M5 Hex [5mm]"
     },
     "category_options": {
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "23.9", "24mm", "25.4mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25.4mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Blank Template (Default)": {
       "version": "1.0"
