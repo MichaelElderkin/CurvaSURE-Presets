@@ -5,9 +5,23 @@
       "Bolt Hole Diameter (mm)": "M5 Hex [5mm]"
     },
     "category_options": {
-      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      "Gouge Diameter (mm)": ["16mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
     },
     "Blank Template (Default)": {
+      "version": "1.0"
+    },
+    "Oboe - Template (Default)": {
+      "params": {
+        "Total Cane Length (mm)": "76mm", 
+        "Gouge Diameter (mm)": "16mm"
+      },
+      "version": "1.0"
+    },
+    "Cor Anglais - Template (Default)": {
+      "params": {
+        "Total Cane Length (mm)": "94mm", 
+        "Gouge Diameter (mm)": "20mm"
+      },
       "version": "1.0"
     },
     "Bassoon - Template (Default)": {
