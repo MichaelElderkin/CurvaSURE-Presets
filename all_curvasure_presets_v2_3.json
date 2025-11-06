@@ -124,18 +124,6 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.1"
     },
-    "Herzberg": {
-      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
-      "points": {"tip_width": 15, "butt_width": 10.4, "intermediate": [[5, 14.33], [10, 13.21], [15, 12.11], [20, 11.25], [25, 10.39], [30, 9.76], [35, 9.13], [40, 8.71], [45, 8.71], [50, 8.92], [55, 9.55]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
-    "Knochenhauer": {
-      "params": {"Original Gouge (mm)": 25, "Gouge Diameter (mm)": "25mm"},
-      "points": {"tip_width": 15.5, "butt_width": 9.5, "intermediate": [[5, 14.02], [10, 12.55], [15, 11.52], [20, 10.49], [25, 9.47], [30, 8.85], [35, 8.45], [40, 8.25], [45, 8.25], [50, 8.65], [55, 9.05]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.0"
-    },
     "Rieger 1": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "Original Shape Length": 70.64, 
