@@ -576,11 +576,11 @@
       "Total Cane Length (mm)": "120mm"
     },
     "Adrian Rowlands": {
-      "params": {"Total Cane Length (mm)": "106mm", "Original Gouge (mm)": 28, "Gouge Diameter (mm)": "28mm"},
-      "Original Shape Length": 53.0,
-      "points": {"tip_width": 12.5, "butt_width": 7.8, "intermediate": [[5.0, 12.5], [10.0, 12.5], [15.0, 12.1], [20.0, 11.6], [25.0, 11.2], [30.0, 10.8], [35.0, 10.2], [40.0, 9.6], [45.0, 9.0], [50.0, 8.3]]},
+      "params": {"Total Cane Length (mm)": "106mm", "Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 55.0,
+      "points": {"tip_width": 12.501, "butt_width": 7.771, "intermediate": [[2, 12.501], [4, 12.501], [5, 12.501], [6, 12.501], [7, 12.501], [8, 12.501], [9, 12.501], [10, 12.501], [10.5, 12.501], [11, 12.486], [11.5, 12.473], [12, 12.441], [12.5, 12.401], [15, 12.178], [17.5, 11.969], [20, 11.761], [22.5, 11.553], [25, 11.337], [27.5, 11.105], [30, 10.862], [32.5, 10.593], [35, 10.318], [37.5, 10], [40, 9.677], [42.5, 9.35], [45, 9.019], [47.5, 8.69], [50, 8.363], [52.5, 8.059]]},
       "options": {"Curve Mode": "curve"},
-      "version": "1.1"
+      "version": "1.2"
     },
     "Rieger 31": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
