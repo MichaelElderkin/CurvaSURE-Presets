@@ -596,9 +596,10 @@
     },
     "Richard Bobo": {
       "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 90.0,
       "points": {"tip_width": 33.706, "butt_width": 14.08, "intermediate": [[17.91, 23.253], [26.35, 19.262], [31.23, 17.103], [36.114, 15.488], [40.62, 14.312], [45.1, 13.442], [48.89, 13.027], [53.63, 12.809], [65.01, 12.864], [73.88, 13.179], [82.93, 13.639]]},
       "options": {"Curve Mode": "curve"},
-      "version": "1.1"
+      "version": "1.2"
     }
   }
 }
