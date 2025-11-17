@@ -58,6 +58,13 @@
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
     },
+    "Bell H (Herzberg)": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 60, 
+      "points": {"tip_width": 15.626, "butt_width": 10.586, "intermediate": [[5, 14.856], [10, 13.616], [15, 12.421], [20, 11.493], [25, 10.586], [30, 9.918], [35, 9.259], [40, 8.824], [45, 8.824], [50, 9.041], [55, 9.697]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
     "Fox 1": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
       "Original Shape Length": 60, 
