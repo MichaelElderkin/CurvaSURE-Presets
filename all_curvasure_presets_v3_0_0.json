@@ -53,7 +53,18 @@
       "version": "1.0"
     }
   },
-  
+  "Oboe": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "76mm"
+    },
+    "Rieger 1": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 39.81, 
+      "points": {"tip_width": 7.0, "butt_width": 3.141, "intermediate": [[0.5, 7.002], [1, 7.006], [1.5, 7.004], [2, 7.002], [2.5, 6.994], [5, 6.942], [7.5, 6.859], [10, 6.748], [12.5, 6.619], [15, 6.442], [17.5, 6.247], [20, 6.009], [22.5, 5.68], [25, 5.348], [27.5, 4.915], [30, 4.513], [32.5, 4.088], [35, 3.597], [37.5, 3.255]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    }
+  },
   "Bassoon": {
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
