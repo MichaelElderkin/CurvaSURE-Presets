@@ -55,7 +55,8 @@
   },
   "Oboe": {
     "category_defaults": {
-      "Total Cane Length (mm)": "76mm"
+      "Total Cane Length (mm)": "76mm",
+      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
     },
     "Rieger 1": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -95,7 +96,8 @@
   },
   "Oboe d'amore": {
     "category_defaults": {
-      "Total Cane Length (mm)": "76mm"
+      "Total Cane Length (mm)": "76mm",
+      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
     },
     "Rieger Oboe d'amore": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -107,7 +109,8 @@
   },
   "Historical Oboe": {
     "category_defaults": {
-      "Total Cane Length (mm)": "80mm"
+      "Total Cane Length (mm)": "80mm",
+      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
     },
     "Rieger Kreedo 12": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -140,7 +143,8 @@
   },
   "Cor Anglais": {
     "category_defaults": {
-      "Total Cane Length (mm)": "94mm"
+      "Total Cane Length (mm)": "94mm",
+      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
     },
     "Rieger English Horn": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -708,10 +712,110 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.4"
     }
+  },
+  "Bass Oboe": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "94mm",
+      "Generate Tip Indent": true,
+      "Generate Narrowest Indent": false,
+      "Generate Butt Indent": false
+    },
+    "Hörtnagl 77": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 37.5,
+      "points": {"tip_width": 9.112, "butt_width": 5.054, "intermediate": [[10, 8.779], [20, 7.688], [30, 5.364]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 82": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 40.5,
+      "points": {"tip_width": 8.89, "butt_width": 3.417, "intermediate": [[10, 8.669], [20, 7.58], [30, 4.642]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 83": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 40.5,
+      "points": {"tip_width": 8.779, "butt_width": 4.231, "intermediate": [[10, 8.559], [20, 7.58], [30, 5.885]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 84": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 40.5,
+      "points": {"tip_width": 8.23, "butt_width": 3.315, "intermediate": [[10, 8.013], [20, 7.258], [30, 5.364]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 121": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38,
+      "points": {"tip_width": 8.669, "butt_width": 3.62, "intermediate": [[10, 8.34], [20, 7.796], [30, 5.676]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 124": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 37,
+      "points": {"tip_width": 8.89, "butt_width": 4.027, "intermediate": [[10, 8.34], [20, 6.938], [30, 5.26]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },  
+    "Hörtnagl 125": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38,
+      "points": {"tip_width": 9.616, "butt_width": 3.012, "intermediate": [[10, 9.001], [20, 7.151], [30, 4.231]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 131": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 46.5,
+      "points": {"tip_width": 8.89, "butt_width": 5.676, "intermediate": [[10, 8.23], [20, 7.151], [30, 5.885]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 148": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 45,
+      "points": {"tip_width": 9.899, "butt_width": 4.436, "intermediate": [[10, 9.56], [20, 9.112], [30, 6.515]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 152": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 45,
+      "points": {"tip_width": 9.335, "butt_width": 3.62, "intermediate": [[10, 8.89], [20, 7.58], [30, 4.744], [40, 3.721]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 153": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38.5,
+      "points": {"tip_width": 9.335, "butt_width": 4.231, "intermediate": [[10, 9.112], [20, 7.904], [30, 5.78]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 160": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 37.5,
+      "points": {"tip_width": 9.112, "butt_width": 3.012, "intermediate": [[10, 9.001], [20, 8.559], [30, 5.885]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Hörtnagl 167": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 46,
+      "points": {"tip_width": 9.899, "butt_width": 3.823, "intermediate": [[10, 9.56], [20, 7.796], [30, 5.885], [40, 4.334]]},      
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    }
   }, 
   "Heckelphone": {
     "category_defaults": {
-      "Total Cane Length (mm)": "120mm"
+      "Total Cane Length (mm)": "120mm",
+      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
     },
     "Adrian Rowlands": {
       "params": {"Total Cane Length (mm)": "106mm", "Gouge Diameter (mm)": "32mm"},
