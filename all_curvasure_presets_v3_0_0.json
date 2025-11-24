@@ -846,6 +846,13 @@
       "Generate Narrowest Indent": false,
       "Generate Butt Indent": false
     },
+    "Hörtnagl FBO": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 47,
+      "points": {"tip_width": 9.786, "butt_width": 4.334, "intermediate": [[2.5, 9.786], [10, 9.56], [20, 8.34], [30, 6.199]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
     "Hörtnagl 77": {
       "params": {"Gouge Diameter (mm)": "32mm"},
       "Original Shape Length": 37.5,
