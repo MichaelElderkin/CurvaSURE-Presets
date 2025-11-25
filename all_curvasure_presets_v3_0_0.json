@@ -58,6 +58,41 @@
       "Total Cane Length (mm)": "76mm",
       "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
     },
+    "Nagamatsu 0A": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38, 
+      "points": {"tip_width": 6.91, "butt_width": 3.15, "intermediate": [[5, 6.87], [10, 6.747], [15, 6.506], [20, 6.06], [25, 5.366], [30, 4.48], [35, 3.55]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Nagamatsu 0B": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38, 
+      "points": {"tip_width": 6.93, "butt_width": 3.15, "intermediate": [[5, 6.908], [10, 6.813], [15, 6.586], [20, 6.136], [25, 5.43], [30, 4.524], [35, 3.594]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Nagamatsu 0C": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38, 
+      "points": {"tip_width": 7.05, "butt_width": 3.15, "intermediate": [[5, 6.984], [10, 6.87], [15, 6.644], [20, 6.214], [25, 5.56], [30, 4.684], [35, 3.698]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Nagamatsu 1": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38, 
+      "points": {"tip_width": 7.017, "butt_width": 3.15, "intermediate": [[5, 6.992], [10, 6.9], [15, 6.66], [20, 6.25], [25, 5.63], [30, 4.82], [35, 3.825]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Nagamatsu 2": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 38, 
+      "points": {"tip_width": 7.066, "butt_width": 3.15, "intermediate": [[5, 7.055], [10, 6.97], [15, 6.725], [20, 6.315], [25, 5.68], [30, 4.865], [35, 3.875]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
     "Rieger 1": {
       "params": {"Gouge Diameter (mm)": "32mm"},
       "Original Shape Length": 39.81, 
@@ -271,6 +306,27 @@
     "category_defaults": {
       "Total Cane Length (mm)": "94mm",
       "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
+    },
+    "Nagamatsu 0": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 47, 
+      "points": {"tip_width": 7.944, "butt_width": 3.9, "intermediate": [[5, 7.93], [10, 7.9], [15, 7.78], [20, 7.55], [25, 7.195], [30, 6.665], [35, 5.95], [40, 5.025], [45, 4.2]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Nagamatsu 1": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 47, 
+      "points": {"tip_width": 8.104, "butt_width": 4, "intermediate": [[5, 8.085], [10, 8.05], [15, 7.915], [20, 7.64], [25, 7.25], [30, 6.71], [35, 5.985], [40, 5.07], [45, 4.25]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
+    },
+    "Nagamatsu N": {
+      "params": {"Gouge Diameter (mm)": "32mm"},
+      "Original Shape Length": 47, 
+      "points": {"tip_width": 8.252, "butt_width": 3.9, "intermediate": [[5, 8.23], [10, 8.17], [15, 8.05], [20, 7.86], [25, 7.53], [30, 6.96], [35, 6.13], [40, 5.12], [45, 4.19]]},
+      "options": {"Curve Mode": "curve"},
+      "version": "1.0"
     },
     "Rieger English Horn": {
       "params": {"Gouge Diameter (mm)": "32mm"},
