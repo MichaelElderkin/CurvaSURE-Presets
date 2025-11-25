@@ -177,8 +177,7 @@
   },
   "Historical Oboe": {
     "category_defaults": {
-      "Total Cane Length (mm)": "80mm",
-      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
+      "Total Cane Length (mm)": "80mm"
     },
     "Hörtnagl 77": {
       "params": {"Gouge Diameter (mm)": "32mm"},
