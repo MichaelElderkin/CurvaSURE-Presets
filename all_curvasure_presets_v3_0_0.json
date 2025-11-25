@@ -55,8 +55,7 @@
   },
   "Oboe": {
     "category_defaults": {
-      "Total Cane Length (mm)": "76mm",
-      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
+      "Total Cane Length (mm)": "76mm"
     },
     "Nagamatsu 0A": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -166,8 +165,7 @@
   },
   "Oboe d'amore": {
     "category_defaults": {
-      "Total Cane Length (mm)": "76mm",
-      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
+      "Total Cane Length (mm)": "76mm"
     },
     "Rieger Oboe d'amore": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -304,8 +302,7 @@
   },
   "Cor Anglais": {
     "category_defaults": {
-      "Total Cane Length (mm)": "94mm",
-      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
+      "Total Cane Length (mm)": "94mm"
     },
     "Nagamatsu 0": {
       "params": {"Gouge Diameter (mm)": "32mm"},
@@ -1017,8 +1014,7 @@
   }, 
   "Heckelphone": {
     "category_defaults": {
-      "Total Cane Length (mm)": "120mm",
-      "Generate Tip Indent": true, "Generate Narrowest Indent": false, "Generate Butt Indent": false
+      "Total Cane Length (mm)": "120mm"
     },
     "Adrian Rowlands": {
       "params": {"Total Cane Length (mm)": "106mm", "Gouge Diameter (mm)": "32mm"},
