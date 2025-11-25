@@ -312,12 +312,12 @@
       "options": {"Curve Mode": "curve"},
       "version": "1.1"
     },
-    "Fox ARB (Arbiter)": {
+    "Fox ARB (Arbiter B)": {
       "params": {"Gouge Diameter (mm)": "32mm"},
       "Original Shape Length": 60, 
       "points": {"tip_width": 15.725, "butt_width": 9.983, "intermediate": [[0.5, 15.544], [1, 15.366], [1.5, 15.189], [2, 15.015], [2.5, 14.845], [5, 14.063], [7.5, 13.371], [10, 12.704], [12.5, 12.064], [15, 11.463], [17.5, 10.963], [20, 10.501], [22.5, 10.069], [25, 9.645], [27.5, 9.28], [30, 9.113], [32.5, 9.003], [35, 8.956], [37.5, 9.016], [40, 9.097], [42.5, 9.176], [45, 9.261], [47.5, 9.377], [50, 9.499], [52.5, 9.618], [55, 9.737], [57.5, 9.855]]},
       "options": {"Curve Mode": "curve"},
-      "version": "1.1"
+      "version": "1.2"
     },
     "Fox DC (Christlieb)": {
       "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
