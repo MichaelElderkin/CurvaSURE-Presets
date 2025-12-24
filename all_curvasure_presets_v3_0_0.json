@@ -907,10 +907,7 @@
   },
   "Bass Oboe": {
     "category_defaults": {
-      "Total Cane Length (mm)": "94mm",
-      "Generate Tip Indent": true,
-      "Generate Narrowest Indent": false,
-      "Generate Butt Indent": false
+      "Total Cane Length (mm)": "94mm"
     },
     "Hörtnagl FBO": {
       "params": {"Gouge Diameter (mm)": "32mm"},
