@@ -895,20 +895,22 @@
     "category_defaults": {
       "Total Cane Length (mm)": "150mm"
     },
-    "David Lock": {
-      "params": {"Gouge Diameter (mm)": "32mm"},
-      "Original Shape Length": 75, 
-      "points": {"tip_width": 21.99, "butt_width": 11.83, "intermediate": [[5, 20.906], [10, 19.603], [15, 18.32], [20, 17.09], [25, 15.93], [30, 14.847], [35, 13.925], [40, 13.07], [45, 12.301], [50, 11.71], [55, 11.3], [60, 11.11], [65, 11.208], [70, 11.48]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.1"
-    },
-    "David Lock 2": {
-      "params": {"Gouge Diameter (mm)": "32mm"},
-      "Original Shape Length": 75, 
-      "points": {"tip_width": 24.12, "butt_width": 12.45, "intermediate": [[5, 22.695], [10, 21], [15, 19.299], [20, 17.694], [25, 16.26], [30, 15.004], [35, 13.88], [40, 12.91], [45, 12.204], [50, 11.795], [55, 11.603], [60, 11.496], [65, 11.645], [70, 11.999]]},
-      "options": {"Curve Mode": "curve"},
-      "version": "1.1"
-    },
+	"David Lock": {
+	    "David Lock": {
+	      "params": {"Gouge Diameter (mm)": "32mm"},
+	      "Original Shape Length": 75, 
+	      "points": {"tip_width": 21.99, "butt_width": 11.83, "intermediate": [[5, 20.906], [10, 19.603], [15, 18.32], [20, 17.09], [25, 15.93], [30, 14.847], [35, 13.925], [40, 13.07], [45, 12.301], [50, 11.71], [55, 11.3], [60, 11.11], [65, 11.208], [70, 11.48]]},
+	      "options": {"Curve Mode": "curve"},
+	      "version": "1.1"
+	    },
+	    "David Lock 2": {
+	      "params": {"Gouge Diameter (mm)": "32mm"},
+	      "Original Shape Length": 75, 
+	      "points": {"tip_width": 24.12, "butt_width": 12.45, "intermediate": [[5, 22.695], [10, 21], [15, 19.299], [20, 17.694], [25, 16.26], [30, 15.004], [35, 13.88], [40, 12.91], [45, 12.204], [50, 11.795], [55, 11.603], [60, 11.496], [65, 11.645], [70, 11.999]]},
+	      "options": {"Curve Mode": "curve"},
+	      "version": "1.1"
+	    }
+	},
     "Fox": {
 		"Fox CB1": {
 		  "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
