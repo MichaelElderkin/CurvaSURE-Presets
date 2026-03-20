@@ -352,6 +352,15 @@
     "category_defaults": {
       "Total Cane Length (mm)": "120mm"
     },
+	"Artists": {
+	    "Mak (Hugo Mak)": {
+	      "params": {"Gouge Diameter (mm)": "26mm", "Offset Shape Start": 1.5},
+	      "Original Shape Length": 58.5, 
+	      "points": {"tip_width": 15.4, "butt_width": 9.94, "intermediate": [[5, 14.891], [10, 14.008], [15, 12.905], [20, 11.712], [25, 10.535], [30, 9.532], [35, 9.025], [40, 8.924], [45, 9.071], [50, 9.334], [55, 9.666]]},
+	      "options": {"Curve Mode": "curve"},
+	      "version": "1.0"
+	    }
+	},
     "Bell H (Herzberg)": {
       "params": {"Gouge Diameter (mm)": "32mm"},
       "Original Shape Length": 60, 
