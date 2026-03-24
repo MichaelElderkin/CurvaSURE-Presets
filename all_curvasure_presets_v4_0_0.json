@@ -471,7 +471,7 @@
 		  "options": {"Curve Mode": "curve"},
 		  "version": "1.0"
 		},
-		"Fox BO": {
+		"Fox BO (Bowen)": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
 		  "Original Shape Length": 60, 
 		  "points": {"tip_width": 16.181, "butt_width": 9.061, "intermediate": [[15, 12.95], [30, 9.815], [35, 9.045], [36.6, 9.019], [45, 9.029]]},
