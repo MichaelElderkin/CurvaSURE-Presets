@@ -1498,6 +1498,15 @@
     "category_defaults": {
       "Total Cane Length (mm)": "150mm"
     },
+	"Artists": {
+		"M2 (Hugo Mak)": {
+	      "params": {"Gouge Diameter (mm)": "30mm", "Offset Shape Start": 1.5},
+	      "Original Shape Length": 73.5, 
+	      "points": {"tip_width": 19, "butt_width": 11.532, "intermediate": [[3.5, 18.672], [8.5, 18.104], [13.5, 17.33], [18.5, 16.353], [23.5, 15.202], [28.5, 13.936], [33.5, 12.674], [38.5, 11.618], [43.5, 10.984], [48.5, 10.687], [53.5, 10.631], [58.5, 10.738], [63.5, 10.941], [68.5, 11.209]]},
+	      "options": {"Curve Mode": "curve"},
+	      "version": "1.0"
+		}
+	},
 	"Berdon": {
 		"Berdon C-B": {
 	      "params": {"Gouge Diameter (mm)": "32mm"},
