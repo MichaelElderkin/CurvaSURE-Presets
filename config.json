@@ -1,3 +1,7 @@
 {
   "order_url": "https://www.reedsnstuff.com/en/Product-News/CurvaSURE-Shapers/"
+
+  "latest_version": "4.0.1",
+  "download_url": "https://yoursite.gumroad.com/l/curvasure",
+  "release_notes": "- Fixed guide indent clipping\n- Improved fillet performance"
 }
