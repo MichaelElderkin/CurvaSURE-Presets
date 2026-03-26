@@ -1378,6 +1378,13 @@
 		  "options": {"Curve Mode": "curve"},
 		  "version": "1.0"
 		},
+		"SR5 (Steve's Reeds)": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 60, 
+		  "points": {"tip_width": 15.838, "butt_width": 8.95, "intermediate": [[2.5, 15.296], [5, 14.76], [7.5, 14.228], [10, 13.7], [12.5, 13.176], [15, 12.655], [17.5, 12.139], [20, 11.625], [22.5, 11.115], [25, 10.607], [27.5, 10.102], [30, 9.6], [32.5, 9.112], [35, 8.7], [37.5, 8.42], [40, 8.272], [42.5, 8.223], [45, 8.245], [47.5, 8.313], [50, 8.4], [52.5, 8.489], [55, 8.604], [57.5, 8.761]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
 		"SR8 (Steve's Reeds - 'El Payaso')": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
 		  "Original Shape Length": 72.16,
