@@ -1,6 +1,8 @@
 {
   "order_url": "https://www.reedsnstuff.com/en/Product-News/CurvaSURE-Shapers/",
+  "support_url": "https://michaelelderkin.github.io/CurvaSURE-Presets/support.html",
 
+  
   "latest_version": "4.0.0",
   "download_url": "https://app.gumroad.com/library",
   "release_notes": "- Added ear functionality\n- Shape scaling"
