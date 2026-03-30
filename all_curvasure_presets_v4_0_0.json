@@ -57,6 +57,64 @@
     "category_defaults": {
       "Total Cane Length (mm)": "76mm"
     },
+	"Chiarugi": {
+		"Chiarugi -1": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7, "butt_width": 3.3, "intermediate": [[2.5, 7.006], [5, 6.992], [7.5, 6.95], [10, 6.875], [12.5, 6.761], [15, 6.6], [17.5, 6.389], [20, 6.132], [22.5, 5.838], [25, 5.509], [27.5, 5.142], [30, 4.73], [32.5, 4.269], [35, 3.754]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi -1N": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 6.9, "butt_width": 3.2, "intermediate": [[2.5, 6.906], [5, 6.891], [7.5, 6.85], [10, 6.776], [12.5, 6.661], [15, 6.5], [17.5, 6.289], [20, 6.033], [22.5, 5.739], [25, 5.409], [27.5, 5.041], [30, 4.629], [32.5, 4.168], [35, 3.654]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi -2": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7.3, "butt_width": 3.4, "intermediate": [[2.5, 7.306], [5, 7.29], [7.5, 7.247], [10, 7.171], [12.5, 7.057], [15, 6.9], [17.5, 6.695], [20, 6.441], [22.5, 6.135], [25, 5.776], [27.5, 5.368], [30, 4.912], [32.5, 4.41], [35, 3.866]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi 1": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7, "butt_width": 3.3, "intermediate": [[1, 7], [2, 7], [3, 7], [4, 7], [5, 6.999], [7.5, 6.983], [10, 6.935], [12.5, 6.844], [15, 6.697], [17.5, 6.492], [20, 6.235], [22.5, 5.938], [25, 5.61], [27.5, 5.243], [30, 4.827], [32.5, 4.348], [35, 3.798]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi 2": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7.5, "butt_width": 3.5, "intermediate": [[2.5, 7.515], [5, 7.48], [7.5, 7.402], [10, 7.29], [12.5, 7.153], [15, 7], [17.5, 6.833], [20, 6.622], [22.5, 6.335], [25, 5.954], [27.5, 5.499], [30, 4.993], [32.5, 4.46], [35, 3.921]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi G": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7, "butt_width": 3.2, "intermediate": [[2.5, 7.016], [5, 6.98], [7.5, 6.901], [10, 6.789], [12.5, 6.652], [15, 6.5], [17.5, 6.334], [20, 6.124], [22.5, 5.831], [25, 5.447], [27.5, 4.992], [30, 4.502], [32.5, 4.007], [35, 3.537]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi R": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7.4, "butt_width": 3.4, "intermediate": [[2.5, 7.414], [5, 7.381], [7.5, 7.301], [10, 7.177], [12.5, 7.009], [15, 6.8], [17.5, 6.55], [20, 6.261], [22.5, 5.93], [25, 5.561], [27.5, 5.157], [30, 4.724], [32.5, 4.267], [35, 3.791]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
+		"Chiarugi XN": {
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 37, 
+		  "points": {"tip_width": 7, "butt_width": 3.3, "intermediate": [[2.5, 7], [5, 7.001], [7.5, 7.001], [10, 6.98], [12.5, 6.92], [15, 6.799], [17.5, 6.607], [20, 6.347], [22.5, 6.033], [25, 5.672], [27.5, 5.266], [30, 4.814], [32.5, 4.315], [35, 3.77]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		}
+	},
     "Nagamatsu": {
 		"Nagamatsu 0A": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
