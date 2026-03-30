@@ -19,6 +19,22 @@
 	      "params": {"Total Cane Length (mm)": "94mm", "Gouge Diameter (mm)": "20mm"},
 	      "version": "1.2"},
 		
+	    "Historical Oboe - Template (Default)": {
+	      "params": {"Total Cane Length (mm)": "82mm", "Gouge Diameter (mm)": "20mm"},
+	      "version": "1.0"},
+
+		"Bass Oboe - Template (Default)": {
+	      "params": {"Total Cane Length (mm)": "94mm", "Gouge Diameter (mm)": "20mm"},
+	      "version": "1.0"},
+
+		"Oboe d'Amore - Template (Default)": {
+	      "params": {"Total Cane Length (mm)": "76mm", "Gouge Diameter (mm)": "16mm"},
+	      "version": "1.0"},
+
+		"Viennese Oboe - Template (Default)": {
+	      "params": {"Total Cane Length (mm)": "92mm", "Gouge Diameter (mm)": "16mm"},
+	      "version": "1.0"},
+		
 	    "Bassoon - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "120mm", "Gouge Diameter (mm)": "26mm"},
 	      "version": "1.0"},
