@@ -11,49 +11,65 @@
       "version": "1.0"
     },
 	"Instrument Templates": {
-		"category_options": {
-        	"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
-    	},
-		
 	    "Oboe - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "76mm", "Gouge Diameter (mm)": "16mm"},
-	      "version": "1.2"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.3"},
 
 		"Oboe d'Amore - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "76mm", "Gouge Diameter (mm)": "16mm"},
-	      "version": "1.0"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"},
 
 		"Historical Oboe - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "82mm", "Gouge Diameter (mm)": "20mm"},
-	      "version": "1.0"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"},
 
 		"Viennese Oboe - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "92mm", "Gouge Diameter (mm)": "16mm"},
-	      "version": "1.0"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"},
 		
 	    "Cor Anglais - Template (Default)": {
-	      "params": {"Total Cane Length (mm)": "94mm", "Gouge Diameter (mm)": "20mm"},
-	      "version": "1.2"},
+	      "params": {"Total Cane Length (mm)": "94mm", "Gouge Diameter (mm)": "20mm"},		  
+	      "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.3"},
 	
 		"Bass Oboe - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "94mm", "Gouge Diameter (mm)": "20mm"},
-	      "version": "1.0"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"},
 		
 	    "Bassoon - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "120mm", "Gouge Diameter (mm)": "26mm"},
-	      "version": "1.0"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"},
 		
 	    "Historical Bassoon - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "140mm", "Gouge Diameter (mm)": "26mm"},
-	      "version": "1.1"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.2"},
 		
 	    "Contrabassoon - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "150mm", "Gouge Diameter (mm)": "30mm"},
-	      "version": "1.0"},
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"},
 		
 	    "Contraforte - Template (Default)": {
 	      "params": {"Total Cane Length (mm)": "180mm", "Gouge Diameter (mm)": "30mm"},
-	      "version": "1.0"}
+		  "options": {"Gouge Diameter (mm)": ["16mm", "18mm", "20mm", "21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "25.4mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    	  },
+	      "version": "1.1"}
 	}
   },
   "Oboe": {
