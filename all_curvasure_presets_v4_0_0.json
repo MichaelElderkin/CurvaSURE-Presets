@@ -1538,6 +1538,13 @@
 		  "options": {"Curve Mode": "curve"},
 		  "version": "1.0"
 		},
+		"SR2b (Steve's Reeds)": {
+		  "params": {"Gouge Diameter (mm)": "30mm"},
+		  "Original Shape Length": 60, 
+		  "points": {"tip_width": 16.2, "butt_width": 10, "intermediate": [[5, 15.78], [10, 14.928], [15, 13.89], [20, 12.67], [30, 10], [40, 9.01], [41, 9], [42, 9]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
 		"SR3 (Steve's Reeds)": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
 		  "Original Shape Length": 60, 
