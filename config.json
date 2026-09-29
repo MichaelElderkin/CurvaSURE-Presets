@@ -3,6 +3,9 @@
   "order_url": "https://www.reedsnstuff.com/en/Product-News/CurvaSURE-Shapers/",
   "support_url": "https://michaelelderkin.github.io/CurvaSURE-Presets/support.html",
 
+  "license_endpoint": "https://curvasure-license.<yours>.workers.dev",
+  "license_enabled": true
+
   
   "latest_version": "4.0.0",
   "download_url": "https://app.gumroad.com/library",
