@@ -4,7 +4,7 @@
   "support_url": "https://michaelelderkin.github.io/CurvaSURE-Presets/support.html",
 
   "license_endpoint": "https://curvasure-license.<yours>.workers.dev",
-  "license_enabled": true
+  "license_enabled": true,
 
   
   "latest_version": "4.0.0",
