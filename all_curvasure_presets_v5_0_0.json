@@ -1720,10 +1720,11 @@
 		},
 		"M3 (Hugo Mak)": {
 	      "params": {"Gouge Diameter (mm)": "30mm", "Offset Shape Start": 1.5},
-	      "Original Shape Length": 73.5, 
-	      "points": {"tip_width": 19.4, "butt_width": 11.91, "intermediate": [[3.5, 19.21], [8.5, 18.759], [13.5, 18.074], [18.5, 17.125], [23.5, 15.939], [28.5, 14.579], [33.5, 13.19], [38.5, 11.97], [43.5, 11.16], [48.5, 10.78], [53.5, 10.73], [58.5, 10.875], [63.5, 11.134], [68.5, 11.483]]},
+	      "Original Shape Length": 73.5,
+	      "points": {"tip_width": 19.4, "butt_width": 11.91, "intermediate": [[3.5, 19.3], [8.5, 18.9], [13.5, 18.2], [18.5, 17.21], [23.5, 15.97], [28.5, 14.579], [33.5, 13.19], [38.5, 11.97], [43.5, 11.16], [48.5, 10.78], [53.5, 10.73], [58.5, 10.875], [63.5, 11.134], [68.5, 11.483]]},
 	      "options": {"Curve Mode": "curve"},
-	      "version": "2.0"
+	      "notes": "Rieger K2 scaled narrower to match blade area of K1\nTested on Heckel, Fox, Püchner contras",
+	      "version": "2.1"
 		}
 	},
 	"Berdon": {
