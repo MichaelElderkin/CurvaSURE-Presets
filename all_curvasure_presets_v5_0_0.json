@@ -1243,6 +1243,15 @@
 		  "version": "1.0"
 		}
 	},
+    "Pfeiffer": {
+		"Goltzer": {
+			"params": {"Gouge Diameter (mm)": "32mm"},
+			"Original Shape Length": 67,
+			"points": {"tip_width": 15.3, "butt_width": 10.25, "intermediate": [[5, 14.36], [10, 13.32], [15, 12.305], [20, 11.31], [25, 10.32], [30, 9.43], [35, 8.89], [40, 8.67], [45, 8.69], [50, 8.883], [55, 9.215], [60, 9.65], [65, 10.094]]},
+			"options": {"Curve Mode": "curve"},
+			"version": "1.0"
+		}
+    },
     "Rieger": {
 		"Rieger 1": {
 		  "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
