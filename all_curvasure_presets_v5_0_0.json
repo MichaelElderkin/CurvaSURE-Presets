@@ -1508,10 +1508,12 @@
 		  "version": "1.1"
 		},
 		"Rieger KOR (Kristian Oma Rønnes)": {
-		  "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
-		  "points": {"tip_width": 14.99, "butt_width": 9.68, "intermediate": [[1, 14.99], [2, 14.95], [3, 14.774], [4, 14.567], [6, 14.153], [8, 13.739], [10, 13.326], [12, 12.911], [14, 12.494], [16, 12.077], [18, 11.658], [20, 11.237], [22, 10.813], [24, 10.386], [26, 9.958], [28, 9.528], [30, 9.13], [32, 8.88], [34, 8.74], [40, 8.81], [45, 9.03], [50, 9.25], [55, 9.47]]},
+		  "params": {"Gouge Diameter (mm)": "32mm"},
+		  "Original Shape Length": 60,
+		  "points": {"tip_width": 15.601, "butt_width": 9.834, "intermediate": [[1, 15.601], [2, 15.555], [3, 15.357], [4, 15.124], [6, 14.661], [8, 14.201], [10, 13.745], [12, 13.29], [14, 12.835], [16, 12.384], [18, 11.933], [20, 11.482], [22, 11.03], [24, 10.578], [26, 10.126], [28, 9.675], [30, 9.259], [32, 8.998], [34, 8.852], [40, 8.925], [45, 9.154], [50, 9.384], [55, 9.614]]},
 		  "options": {"Curve Mode": "curve"},
-		  "version": "1.0"
+		  "notes": "\"The tip-width is the same as Thunemann's shape (15,60mm), however the blade narrows down towards the tube more gradually and further. The tube itself is quiet narrow, and is inspired by Hombach's reeds from mid. 1990s.\" \n(source: website of Kristian Oma Rønnes)",
+		  "version": "1.1"
 		},
 		"Rieger M (Maxym)": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
