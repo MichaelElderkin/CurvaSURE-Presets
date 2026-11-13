@@ -1,0 +1,858 @@
+{
+ "Oboe": {
+  "Chiarugi": {
+   "Chiarugi -1": {
+    "index": true
+   },
+   "Chiarugi -1N": {
+    "index": true
+   },
+   "Chiarugi -2": {
+    "index": true
+   },
+   "Chiarugi 1": {
+    "index": true
+   },
+   "Chiarugi 2": {
+    "index": true
+   },
+   "Chiarugi G": {
+    "index": true
+   },
+   "Chiarugi R": {
+    "index": true
+   },
+   "Chiarugi XN": {
+    "index": true
+   }
+  },
+  "Nagamatsu": {
+   "Nagamatsu 0A": {
+    "index": true
+   },
+   "Nagamatsu 0B": {
+    "index": true
+   },
+   "Nagamatsu 0C": {
+    "index": true
+   },
+   "Nagamatsu 1": {
+    "index": true
+   },
+   "Nagamatsu 2": {
+    "index": true
+   }
+  },
+  "Reeds 'n Stuff": {
+   "DIAN (DIANA)": {
+    "index": true
+   },
+   "H17": {
+    "index": true
+   },
+   "H39": {
+    "index": true
+   },
+   "H64": {
+    "index": true
+   },
+   "LM3": {
+    "index": true
+   }
+  },
+  "Rieger": {
+   "Rieger 1": {
+    "index": true
+   },
+   "Rieger 1a": {
+    "index": true
+   },
+   "Rieger 2": {
+    "index": true
+   },
+   "Rieger 3": {
+    "index": true
+   },
+   "Rieger 4": {
+    "index": true
+   }
+  },
+  "Wettstein": {
+   "Wettstein 10": {
+    "index": true
+   },
+   "Wettstein 11": {
+    "index": true
+   },
+   "Wettstein 12": {
+    "index": true
+   },
+   "Wettstein 13": {
+    "index": true
+   },
+   "Wettstein 15": {
+    "index": true
+   }
+  }
+ },
+ "Oboe d'amore": {
+  "Rieger": {
+   "Rieger Oboe d'amore": {
+    "index": true
+   }
+  }
+ },
+ "Historical Oboe": {
+  "Hörtnagl": {
+   "Hörtnagl 77": {
+    "index": true
+   },
+   "Hörtnagl 82": {
+    "index": true
+   },
+   "Hörtnagl 83": {
+    "index": true
+   },
+   "Hörtnagl 84": {
+    "index": true
+   },
+   "Hörtnagl 121": {
+    "index": true
+   },
+   "Hörtnagl 124": {
+    "index": true
+   },
+   "Hörtnagl 125": {
+    "index": true
+   },
+   "Hörtnagl 131": {
+    "index": true
+   },
+   "Hörtnagl 148": {
+    "index": true
+   },
+   "Hörtnagl 152": {
+    "index": true
+   },
+   "Hörtnagl 153": {
+    "index": true
+   },
+   "Hörtnagl 160": {
+    "index": true
+   },
+   "Hörtnagl 167": {
+    "index": true
+   }
+  },
+  "Rieger": {
+   "Rieger Kreedo 12": {
+    "index": true
+   },
+   "Rieger Kreedo 12a": {
+    "index": true
+   },
+   "Rieger Kreedo 13": {
+    "index": true
+   },
+   "Rieger Kreedo 14": {
+    "index": true
+   }
+  }
+ },
+ "Cor Anglais": {
+  "Nagamatsu": {
+   "Nagamatsu 0": {
+    "index": true
+   },
+   "Nagamatsu 1": {
+    "index": true
+   },
+   "Nagamatsu N": {
+    "index": true
+   }
+  },
+  "Reeds 'n Stuff": {
+   "EH98": {
+    "index": true
+   },
+   "GOBA (Giacobassi)": {
+    "index": true
+   }
+  },
+  "Rieger": {
+   "Rieger English Horn": {
+    "index": true
+   }
+  }
+ },
+ "Bassoon": {
+  "Artists": {
+   "KNII (Rick Yoder)": {
+    "index": true
+   },
+   "MAK (Hugo Mak)": {
+    "index": true
+   },
+   "STEES (Barry Stees)": {
+    "index": true
+   }
+  },
+  "Bell": {
+   "Bell H (Herzberg)": {
+    "index": true
+   }
+  },
+  "Berdon": {
+   "Berdon 0": {
+    "index": true
+   },
+   "Berdon 1": {
+    "index": true
+   },
+   "Berdon 2": {
+    "index": true
+   },
+   "Berdon 3": {
+    "index": true
+   },
+   "Berdon 5": {
+    "index": true
+   },
+   "Berdon 6": {
+    "index": true
+   },
+   "Berdon 8": {
+    "index": true
+   }
+  },
+  "Danzi": {
+   "Danzi": {
+    "index": true
+   },
+   "Danzi 2": {
+    "index": true
+   },
+   "Danzi Large": {
+    "index": true
+   }
+  },
+  "Fox": {
+   "Fox 1": {
+    "index": true
+   },
+   "Fox 2": {
+    "index": true
+   },
+   "Fox 3": {
+    "index": true
+   },
+   "Fox APK (Arbiter PK)": {
+    "index": true
+   },
+   "Fox AR (Arbiter)": {
+    "index": true
+   },
+   "Fox ARB (Arbiter B)": {
+    "index": true
+   },
+   "Fox B3 (Beane 3)": {
+    "index": true
+   },
+   "Fox BE (Bettez)": {
+    "index": true
+   },
+   "Fox BH (Burkhardt)": {
+    "index": true
+   },
+   "Fox BK (Berkenstock)": {
+    "index": true
+   },
+   "Fox BL (Blain)": {
+    "index": true
+   },
+   "Fox BO (Bowen)": {
+    "index": true
+   },
+   "Fox CA2 (Campbell 2)": {
+    "index": true
+   },
+   "Fox CDN (Crockett CDN)": {
+    "index": true
+   },
+   "Fox CDN2 (Crockett CDN2)": {
+    "index": true
+   },
+   "Fox CH (Crockett-Holtje)": {
+    "index": true
+   },
+   "Fox CHN (Crockett-Holtje Narrow)": {
+    "index": true
+   },
+   "Fox CM (Chisholm)": {
+    "index": true
+   },
+   "Fox CO (Corey)": {
+    "index": true
+   },
+   "Fox COE (Coelho)": {
+    "index": true
+   },
+   "Fox CS (Csonka)": {
+    "index": true
+   },
+   "Fox DB1 (Brundage DB1)": {
+    "index": true
+   },
+   "Fox DB2 (Brundage DB2)": {
+    "index": true
+   },
+   "Fox DC (Christlieb)": {
+    "index": true
+   },
+   "Fox DCN (Christlieb Narrow)": {
+    "index": true
+   },
+   "Fox DCW (Christlieb Wide)": {
+    "index": true
+   },
+   "Fox DE (DeBolt)": {
+    "index": true
+   },
+   "Fox DI (Dicker)": {
+    "index": true
+   },
+   "Fox EB (Ewen-Buttemer)": {
+    "index": true
+   },
+   "Fox EL (Elliott)": {
+    "index": true
+   },
+   "Fox EM (Eubanks-Maxym)": {
+    "index": true
+   },
+   "Fox FA (Fuering)": {
+    "index": true
+   },
+   "Fox FSR (Fraser)": {
+    "index": true
+   },
+   "Fox FJ (Jackson)": {
+    "index": true
+   },
+   "Fox G2 (Garfield)": {
+    "index": true
+   },
+   "Fox GGG (Groth)": {
+    "index": true
+   },
+   "Fox GR9 (Greaves)": {
+    "index": true
+   },
+   "Fox GR (Grossman)": {
+    "index": true
+   },
+   "Fox GS (Giacobassi)": {
+    "index": true
+   },
+   "Fox HB (Hindell-B)": {
+    "index": true
+   },
+   "Fox HK (Nigel)": {
+    "index": true
+   },
+   "Fox HL (Howell-Loken)": {
+    "index": true
+   },
+   "Fox HG (Hindell G)": {
+    "index": true
+   },
+   "Fox HT (Holtje-T)": {
+    "index": true
+   },
+   "Fox HV (Hannevold)": {
+    "index": true
+   },
+   "Fox HW1 (Harriswangler 1)": {
+    "index": true
+   },
+   "Fox ISH (Ishikawa)": {
+    "index": true
+   },
+   "Fox JC (Clouser)": {
+    "index": true
+   },
+   "Fox JL (Link)": {
+    "index": true
+   },
+   "Fox JPN (Peter Narrow)": {
+    "index": true
+   },
+   "Fox JPW (Peter Wide)": {
+    "index": true
+   },
+   "Fox K3A (Kopp 3A)": {
+    "index": true
+   },
+   "Fox K": {
+    "index": true
+   },
+   "Fox KK (Komatsu K)": {
+    "index": true
+   },
+   "Fox KL (Tarlton)": {
+    "index": true
+   },
+   "Fox KLN (Tarlton Narrow)": {
+    "index": true
+   },
+   "Fox KM (Krysmalski)": {
+    "index": true
+   },
+   "Fox KM2 (Komatsu 2)": {
+    "index": true
+   },
+   "Fox KOM (Komatsu)": {
+    "index": true
+   },
+   "Fox KOM-D (Komatsu-D)": {
+    "index": true
+   },
+   "Fox KOM-D2 (Komatsu-D2)": {
+    "index": true
+   },
+   "Fox LE (LeClair)": {
+    "index": true
+   },
+   "Fox LM (Lein-Moeckler)": {
+    "index": true
+   },
+   "Fox LW (Washington)": {
+    "index": true
+   },
+   "Fox MD (Millard)": {
+    "index": true
+   },
+   "Fox MDN (Millard Narrow)": {
+    "index": true
+   },
+   "Fox MG2 (McGovern)": {
+    "index": true
+   },
+   "Fox MK (Maeckle)": {
+    "index": true
+   },
+   "Fox NB (Nelson)": {
+    "index": true
+   },
+   "Fox NY (Nystrom)": {
+    "index": true
+   },
+   "Fox OO (Oosting)": {
+    "index": true
+   },
+   "Fox ORT (Ortwein)": {
+    "index": true
+   },
+   "Fox PED (Pedrazzini)": {
+    "index": true
+   },
+   "Fox PK1 (Kolker 1)": {
+    "index": true
+   },
+   "Fox PK2 (Kolker 2)": {
+    "index": true
+   },
+   "Fox RT (Roemhildt)": {
+    "index": true
+   },
+   "Fox RY-2 (Yoder)": {
+    "index": true
+   },
+   "Fox S1 (Sweger 1)": {
+    "index": true
+   },
+   "Fox SDI (Sardi)": {
+    "index": true
+   },
+   "Fox SGT (Schweigert)": {
+    "index": true
+   },
+   "Fox SH (Sharrow)": {
+    "index": true
+   },
+   "Fox ST (Stees)": {
+    "index": true
+   },
+   "Fox ST2 (Stees 2)": {
+    "index": true
+   },
+   "Fox SVH (Sakakeeny-Van Hoesen)": {
+    "index": true
+   },
+   "Fox SY (Schaul-Yoder)": {
+    "index": true
+   },
+   "Fox TDB (Tropman-Butterfield)": {
+    "index": true
+   },
+   "Fox TJ (Jacobs)": {
+    "index": true
+   },
+   "Fox TK (Turkin)": {
+    "index": true
+   },
+   "Fox TP (Tropman)": {
+    "index": true
+   },
+   "Fox T2 (Tropman 2)": {
+    "index": true
+   },
+   "Fox TR (Taylor)": {
+    "index": true
+   },
+   "Fox W (Williams)": {
+    "index": true
+   },
+   "Fox WG (Weisberg-Goltzer)": {
+    "index": true
+   },
+   "Fox WSD (Winstead)": {
+    "index": true
+   }
+  },
+  "Pfeiffer": {
+   "Goltzer": {
+    "index": true
+   }
+  },
+  "Rieger": {
+   "Rieger 1": {
+    "index": true
+   },
+   "Rieger 1a": {
+    "index": true
+   },
+   "Rieger 2": {
+    "index": true
+   },
+   "Rieger 2a": {
+    "index": true
+   },
+   "Rieger 3": {
+    "index": true
+   },
+   "Rieger 4": {
+    "index": true
+   },
+   "Rieger 5": {
+    "index": true
+   },
+   "Rieger 6": {
+    "index": true
+   },
+   "Rieger 7": {
+    "index": true
+   },
+   "Rieger 8": {
+    "index": true
+   },
+   "Rieger 9": {
+    "index": true
+   },
+   "Rieger 10": {
+    "index": true
+   },
+   "Rieger 11": {
+    "index": true
+   },
+   "Rieger 12": {
+    "index": true
+   },
+   "Rieger 13": {
+    "index": true
+   },
+   "Rieger 14": {
+    "index": true
+   },
+   "Rieger 15": {
+    "index": true
+   },
+   "Rieger 16": {
+    "index": true
+   },
+   "Rieger 17": {
+    "index": true
+   },
+   "Rieger 18": {
+    "index": true
+   },
+   "Rieger 19": {
+    "index": true
+   },
+   "Rieger 20": {
+    "index": true
+   },
+   "Rieger 22": {
+    "index": true
+   },
+   "Rieger 23": {
+    "index": true
+   },
+   "Rieger 24": {
+    "index": true
+   },
+   "Rieger 26": {
+    "index": true
+   },
+   "Rieger 27": {
+    "index": true
+   },
+   "Rieger 28": {
+    "index": true
+   },
+   "Rieger 29": {
+    "index": true
+   },
+   "Rieger 30": {
+    "index": true
+   },
+   "Rieger 32": {
+    "index": true
+   },
+   "Rieger 33": {
+    "index": true
+   },
+   "Rieger 34": {
+    "index": true
+   },
+   "Rieger 35": {
+    "index": true
+   },
+   "Rieger 37": {
+    "index": true
+   },
+   "Rieger KOR (Kristian Oma Rønnes)": {
+    "index": true
+   },
+   "Rieger M (Maxym)": {
+    "index": true
+   },
+   "Rieger T (Thunemann)": {
+    "index": true
+   }
+  },
+  "Steve's Reeds": {
+   "SR1 (Steve's Reeds)": {
+    "index": true
+   },
+   "SR2 (Steve's Reeds)": {
+    "index": true
+   },
+   "SR2b (Steve's Reeds)": {
+    "index": true
+   },
+   "SR3 (Steve's Reeds)": {
+    "index": true
+   },
+   "SR5 (Steve's Reeds)": {
+    "index": true
+   },
+   "SR8 (Steve's Reeds - 'El Payaso')": {
+    "index": true
+   },
+   "SRC (Steve's Reeds)": {
+    "index": true
+   },
+   "SRM (Steve's Reeds)": {
+    "index": true
+   },
+   "SRWG (Steve's Reeds)": {
+    "index": true
+   }
+  }
+ },
+ "Historical Bassoon": {
+  "Rieger": {
+   "Rieger AA": {
+    "index": true
+   },
+   "Rieger AB": {
+    "index": true
+   },
+   "Rieger B1": {
+    "index": true
+   },
+   "Rieger B2": {
+    "index": true
+   },
+   "Rieger B3": {
+    "index": true
+   },
+   "Rieger B4": {
+    "index": true
+   },
+   "Rieger B5 Narrow": {
+    "index": true
+   },
+   "Rieger B5 Wide": {
+    "index": true
+   },
+   "Rieger B5B": {
+    "index": true
+   },
+   "Rieger B6": {
+    "index": true
+   },
+   "Rieger B7": {
+    "index": true
+   },
+   "Rieger 21": {
+    "index": true
+   },
+   "Rieger 25": {
+    "index": true
+   },
+   "Rieger EH": {
+    "index": true
+   }
+  }
+ },
+ "Contrabassoon": {
+  "Artists": {
+   "M2 (Hugo Mak)": {
+    "index": true
+   },
+   "M3 (Hugo Mak)": {
+    "index": true
+   }
+  },
+  "Berdon": {
+   "Berdon C-B": {
+    "index": true
+   }
+  },
+  "David Lock": {
+   "David Lock": {
+    "index": true
+   },
+   "David Lock 2": {
+    "index": true
+   }
+  },
+  "Fox": {
+   "Fox BE (Bettez - 142mm)": {
+    "index": true
+   },
+   "Fox CB (Fox Contra - 142mm)": {
+    "index": true
+   },
+   "Fox CB1": {
+    "index": true
+   },
+   "Fox CB2": {
+    "index": true
+   },
+   "Fox CB3": {
+    "index": true
+   },
+   "Fox CBH": {
+    "index": true
+   },
+   "Fox CBL": {
+    "index": true
+   },
+   "Fox E2 (Eubanks 2)": {
+    "index": true
+   },
+   "Fox E2-142 (Eubanks 2 - 142mm)": {
+    "index": true
+   },
+   "Fox E3 (Eubanks 3 - 142mm)": {
+    "index": true
+   },
+   "Fox F (Fast)": {
+    "index": true
+   },
+   "Fox F2 (Fast)": {
+    "index": true
+   },
+   "Fox JS (Sherwin)": {
+    "index": true
+   },
+   "Fox NS (Noble-Skinner - 142mm)": {
+    "index": true
+   },
+   "Fox RBL (Rhodes BL)": {
+    "index": true
+   },
+   "Fox RBN (Rhodes BN)": {
+    "index": true
+   },
+   "Fox RR1 (Rhodes R1)": {
+    "index": true
+   },
+   "Fox SKB (Skinner-Braunstein)": {
+    "index": true
+   },
+   "Fox SKB2 (Skinner-Braunstein 2)": {
+    "index": true
+   }
+  },
+  "Rieger": {
+   "Rieger K1": {
+    "index": true
+   },
+   "Rieger K2": {
+    "index": true
+   },
+   "Rieger K3": {
+    "index": true
+   },
+   "Rieger K4": {
+    "index": true
+   }
+  },
+  "Steve's Reeds": {
+   "SRCBN1 (Steve's Reeds)": {
+    "index": true
+   },
+   "SRCBN2 (Steve's Reeds)": {
+    "index": true
+   },
+   "SRCBN3 (Steve's Reeds)": {
+    "index": true
+   }
+  }
+ },
+ "Contraforte": {
+  "Rieger": {
+   "Rieger C2": {
+    "index": true
+   }
+  }
+ },
+ "Bass Oboe": {
+  "Hörtnagl": {
+   "Hörtnagl FBO": {
+    "index": true
+   }
+  }
+ },
+ "Heckelphone": {
+  "Artists": {
+   "AR (Adrian Rowlands)": {
+    "index": true
+   }
+  },
+  "Rieger": {
+   "Rieger 31": {
+    "index": true
+   }
+  }
+ },
+ "Subcontrabassoon": {
+  "RIBO (Richard Bobo)": {
+   "index": true
+  }
+ }
+}
