@@ -1,0 +1,274 @@
+{
+  "Defaults": {
+    "Bassoon (Default)": {
+      "params": {
+        "Total Cane Length (mm)": "120mm", 
+        "Gouge Diameter (mm)": "26mm"
+      },
+      "options": {
+        "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
+        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      },
+      "version": "0.0"
+    },
+    "Baroque Bassoon (Default)": {
+      "params": {
+        "Total Cane Length (mm)": "140mm",
+        "Gouge Diameter (mm)": "26mm"
+      },
+      "options": {
+        "Total Cane Length (mm)": ["120mm","122mm","124mm", "126mm", "128mm", "130mm", "132mm", "134mm", "136mm", "138mm", "140mm", "142mm", "150mm"],
+        "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+      },
+      "version": "0.0"
+    },
+    "Contrabassoon (Default)": {
+      "params": {
+        "Total Cane Length (mm)": "150mm",
+        "Gouge Diameter (mm)": "30mm"
+      },
+      "options": {
+        "Total Cane Length (mm)": ["142mm", "148mm", "150mm", "160mm"],
+        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+      },
+      "version": "0.0"
+    },
+    "Contraforte (Default)": {
+      "params": {
+        "Total Cane Length (mm)": "180mm",
+        "Gouge Diameter (mm)": "30mm"
+      },
+      "options": {
+        "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
+        "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+      },
+      "version": "0.0"
+    }
+  },
+  "Bassoon": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "120mm",
+      "Gouge Diameter (mm)": "26mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["116mm", "118mm", "120mm", "122mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Christlieb": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Fox 1": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Fox 2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Fox 3": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Herzberg": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Knochenhauer": {
+      "params": {"Original Gouge (mm)": 25, "Gouge Diameter (mm)": "25mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "KOR": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Millard": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 1": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 1a": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 3": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 5": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 13": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 22": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },   
+    "Rieger 32": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Sakakeeny-Van Hoesen": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Schaul-Yoder": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Thunemann": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    }
+  },
+  "Baroque Bassoon": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "140mm",
+      "Gouge Diameter (mm)": "26mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["120mm","122mm","124mm", "126mm", "128mm", "130mm", "132mm", "134mm", "136mm", "138mm", "140mm", "142mm", "150mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Rieger B1": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger B2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    }
+  },
+  "Contrabassoon": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "150mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["142mm", "148mm", "150mm", "160mm"],
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "David Lock": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "David Lock 2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Fast": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Fast 2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger K1": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger K2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger K3": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger K4": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Skinner-Braunstein": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    }
+  },
+  "Contraforte": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "180mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Rieger C2": {
+      "params": {"Original Gouge (mm)": 32, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    }
+  }, 
+  "Heckelphone": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "120mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["106mm", "116mm", "118mm", "120mm", "122mm"],
+      "Gouge Diameter (mm)": ["21.5mm", "22.5mm", "23.5mm", "24mm", "25mm", "26mm", "27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Adrian Rowlands": {
+      "params": {"Total Cane Length (mm)": "106mm", "Original Gouge (mm)": 28, "Gouge Diameter (mm)": "28mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    },
+    "Rieger 31": {
+      "params": {"Original Gouge (mm)": 28, "Gouge Diameter (mm)": "28mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    }
+  },
+  "Subcontrabassoon": {
+    "category_defaults": {
+      "Total Cane Length (mm)": "180mm"
+    },
+    "category_options": {
+      "Total Cane Length (mm)": ["150mm", "160mm", "170mm", "180mm"],
+      "Gouge Diameter (mm)": ["27mm", "28mm", "29mm", "30mm", "32mm"]
+    },
+    "Richard Bobo": {
+      "params": {"Original Gouge (mm)": 35, "Gouge Diameter (mm)": "32mm"},
+      "options": {"Curve Mode": "curve"},
+      "version": "0.0"
+    }
+  }
+}
