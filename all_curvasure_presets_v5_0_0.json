@@ -245,11 +245,11 @@
 		  "version": "1.0"
 		},
 		"Rieger 5": {
-		  "params": {"Gouge Diameter (mm)": "16mm"},
+		  "params": {"Gouge Diameter (mm)": "32mm"},
 		  "Original Shape Length": 38,
 		  "points": {"tip_width": 7.65, "butt_width": 3.7, "intermediate": [[2.5, 7.65], [5, 7.65], [7.5, 7.65], [10, 7.65], [12.5, 7.65], [15, 7.637], [20, 7.22], [25, 5.678], [27.5, 4.614], [30, 4], [32.5, 3.724]]},
 		  "options": {"Curve Mode": "curve"},
-		  "version": "1.0"
+		  "version": "1.1"
 		},
 		"Rieger 6": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
@@ -409,6 +409,13 @@
 		}
 	},
 	"Rieger": {
+		"Rieger 9": {
+		  "params": {"Gouge Diameter (mm)": "16mm"},
+		  "Original Shape Length": 46,
+		  "points": {"tip_width": 9.3, "butt_width": 4.11, "intermediate": [[2.5, 9.3], [5, 9.3], [10, 9.24], [15, 8.867], [20, 7.84], [30, 4.875], [35, 4.05], [37.5, 4], [45, 4.092]]},
+		  "options": {"Curve Mode": "curve"},
+		  "version": "1.0"
+		},
 		"Rieger Kreedo 12": {
 		  "params": {"Gouge Diameter (mm)": "32mm"},
 		  "Original Shape Length": 48, 
