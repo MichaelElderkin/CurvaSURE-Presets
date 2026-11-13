@@ -189,9 +189,10 @@
 
   /* Same manifest the app loads. Pages first, raw fallback.
      Update these if the manifest version changes. */
+  /* Names-only index (no measurements), generated from the manifest by make_preset_index.py */
   var MANIFEST_URLS = [
-    "https://michaelelderkin.github.io/CurvaSURE-Presets/all_curvasure_presets_v4_0_0.json",
-    "https://raw.githubusercontent.com/michaelelderkin/CurvaSURE-Presets/main/all_curvasure_presets_v4_0_0.json"
+    "https://michaelelderkin.github.io/CurvaSURE-Presets/preset_index.json",
+    "https://raw.githubusercontent.com/michaelelderkin/CurvaSURE-Presets/main/preset_index.json"
   ];
   var META_KEYS = {category_defaults:1, category_options:1};
 
@@ -221,7 +222,7 @@
 
   function isPreset(v){
     return v && typeof v === 'object' && !Array.isArray(v) &&
-      ('points' in v || 'params' in v || 'version' in v);
+      ('index' in v || 'points' in v || 'params' in v || 'version' in v);
   }
 
   /* model: [{name, count, makers:[{name,isNone,presets:[name,...]}]}] */
